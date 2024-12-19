@@ -3847,4 +3847,5 @@
 /wai-videos/video-introduction/video-introduction.pt-BR.vtt
 /wai-videos/video-introduction/video-introduction.ru.vtt
 /wai-videos/video-introduction/video-introduction.te.vtt
+/wai-videos/video-introduction/video-introduction.tr.vtt
 /wai-videos/video-introduction/video-introduction.zh-hans.vtt
