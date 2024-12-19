@@ -2855,6 +2855,7 @@
 /fundamentals/accessibility-intro/index.html
 /fundamentals/accessibility-intro/ko.html
 /fundamentals/accessibility-intro/pl.html
+/fundamentals/accessibility-intro/pt-BR.html
 /fundamentals/accessibility-intro/ru.html
 /fundamentals/accessibility-intro/zh-hans.html
 /fundamentals/accessibility-principles/ar.html
@@ -3547,6 +3548,7 @@
 /standards-guidelines/wcag/pl.html
 /standards-guidelines/wcag/translations/index.html
 /standards-guidelines/wcag/wcag3-intro/index.html
+/standards-guidelines/wcag/wcag3-intro/ja.html
 /standards-guidelines/zh-hans.html
 /teach-advocate/accessibility-training/index.html
 /teach-advocate/accessibility-training/presentation-outlines/index.html
