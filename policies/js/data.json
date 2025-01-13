@@ -1066,6 +1066,20 @@
 {
     "title": "United States",
     "countryhref": "/WAI/policies/united-states/",
+    "policyname": "Nondiscrimination on the Basis of Disability; Accessibility of Web Information and Services of State and Local Government Entities",
+    "policyhref": "/WAI/policies/united-states/#nondiscrimination-on-the-basis-of-disability-accessibility-of-web-information-and-services-of-state-and-local-government-entities",
+    "url": "https://www.federalregister.gov/documents/2024/04/24/2024-07758/nondiscrimination-on-the-basis-of-disability-accessibility-of-web-information-and-services-of-state",
+    "enactdate": "2024",
+    "type": "Accessibility law",
+    "scope": [
+      "Public sector"
+    ],
+    "webonly": "No",
+    "wcagver": "WCAG 2.1"
+  },
+{
+    "title": "United States",
+    "countryhref": "/WAI/policies/united-states/",
     "policyname": "Section 255 of the Telecommunications Act of 1996",
     "policyhref": "/WAI/policies/united-states/#section-255-of-the-telecommunications-act-of-1996",
     "url": "https://www.access-board.gov/law/ta.html",
