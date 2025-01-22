@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1737510750739430875";
+      element.src = "/WAI/assets/scripts/main.js?1737513934001845289";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1737510750739430875">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1737513934001845289">
 
-<title> Object element rendering non-text content has non-empty accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1737510750739430875"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> Object element rendering non-text content has non-empty accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1737513934001845289"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="Object element rendering non-text content has non-empty accessible name" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -347,11 +347,7 @@ h2#sidebar-header {
 
 <p>Testing that the <a href="#accessible-name" title="Definition of accessible name">accessible name</a> describes the purpose of the <code class="language-plaintext highlighter-rouge">object</code> element is not part of this rule and must be tested separately.</p>
 
-<p>Non-supported media formats make screen readers render the text content of the element instead of other attributes.</p>
-
-<p><code class="language-plaintext highlighter-rouge">Object</code> elements without an accessible name are ignored by assistive technologies unless they have an <a href="#explicit-role" title="Definition of Explicit role">explicit role</a>.</p>
-
-<p>When the object resource is not loaded, the fallback content is rendered as shown in the Inapplicable Example: “This <code class="language-plaintext highlighter-rouge">object</code> element does not need an accessible name because it loads no image, audio, or video.”</p>
+<p>When the object resource is not loaded, the fallback content, if present, is rendered as shown in the Inapplicable Example: “This <code class="language-plaintext highlighter-rouge">object</code> element does not need an accessible name because it loads no image, audio, or video.”. When screen readers encounter an unsupported media format they will also use the fallback content instead of other attributes.</p>
 
 <h3 id="assumptions">Assumptions</h3>
 
@@ -838,7 +834,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 8fc3b6</p>
-<p><strong>Date:</strong> Updated 2 December 2024</p>
+<p><strong>Date:</strong> Updated 16 January 2025</p>
 <p><strong>Authors:</strong> <a href="https://github.com/AntonioEstriga">António Estriga</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 
@@ -876,9 +872,9 @@ h2#sidebar-header {
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1737510750739430875"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1737513934001845289"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1737510750739430875"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1737513934001845289"></script>
 <script>
   svg4everybody();
 </script><script>
