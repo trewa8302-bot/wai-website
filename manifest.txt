@@ -3100,6 +3100,7 @@
 /news/2024-10-08/wcag2ict/index.html
 /news/2024-12-12/wcag2updates/index.html
 /news/2024-12-12/wcag3/index.html
+/news/2025-01-21/ctaur/index.html
 /news/21/index.html
 /news/22/index.html
 /news/23/index.html
