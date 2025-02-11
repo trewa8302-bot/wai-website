@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1738835718049382927";
+      element.src = "/WAI/assets/scripts/main.js?1739265392421624303";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1738835718049382927">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1739265392421624303">
 
-<title> Element marked as decorative is not exposed[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1738835718049382927"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> Element marked as decorative is not exposed[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1739265392421624303"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="Element marked as decorative is not exposed" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -341,7 +341,7 @@ h2#sidebar-header {
 
 <p>Whenever such a conflict occurs, this indicates at the very least mismatching intentions. Such a conflict should be avoided.</p>
 
-<p>When these conflicts arise on <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure decoration">decorative</a> <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG definition of Non-text content">non-text content</a>, this is also a failure of <a href="https://www.w3.org/TR/WCAG22/#non-text-content" title="Success Criterion 1.1.1: Non-text Content">Success Criterion 1.1.1: Non-text Content</a> because <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure decoration">decorative</a> <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG definition of Non-text content">non-text content</a> must be implemented in a way that allows assistive technologies to ignore it. When these conflicts arise on text content, or on content which is not <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure decoration">decorative</a>, this is not a failure of WCAG. Therefore this rule is not mapping to any specific WCAG Success Criterion, and is not an accessibility requirement for WCAG.</p>
+<p>When these conflicts arise on <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure decoration">decorative</a> <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG definition of Non-text content">non-text content</a>, this is also a failure of <a href="https://www.w3.org/TR/WCAG22/#non-text-content" title="Success Criterion 1.1.1: Non-text Content">Success Criterion 1.1.1: Non-text Content</a> because <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure decoration">decorative</a> <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG definition of Non-text content">non-text content</a> must be implemented in a way that allows assistive technologies to ignore it. When these conflicts arise on text content, or on content which is not <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure decoration">decorative</a>, this is not a failure of WCAG. Therefore this rule maps to Non-text Content as a secondary requirement.</p>
 
 <h3 id="assumptions">Assumptions</h3>
 
@@ -353,7 +353,17 @@ h2#sidebar-header {
 
 <h2 id="accessibility-requirements-mapping">Accessibility Requirements Mapping</h2>
 
-<p>This rule is not required for conformance.</p>
+<h3 id="secondary-requirements">Secondary Requirements</h3>
+
+<p>This rule is related to the following accessibility requirements, but was 
+not designed to test this requirements directly. These 
+<a href="https://w3c.github.io/wcag-act/act-rules-format.html#secondary-requirements">secondary requirements</a>
+can either be stricter than the rule requires, or may be satisfied in ways 
+not tested by the rule:</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/WCAG22/#non-text-content">1.1.1 Non-text Content (Level A)</a>: This success criterion is <strong>less strict</strong> than this rule. Only when this rule is applied to decorative content does a failure of 1.1.1 occur.</li>
+</ul>
 
 <h2 id="input-aspects">Input Aspects</h2>
 
@@ -622,14 +632,14 @@ h2#sidebar-header {
       </thead>
       <tbody>
           <tr>
-            <td>Alfa (fully automated) 0.80.0</td>
+            <td>Alfa (fully automated) 0.98.0</td>
             <td>Automated tool</td>
             <td>
               Consistent </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-46ca7f"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
-            <td>Alfa (semi-automated) 0.80.0</td>
+            <td>Alfa (semi-automated) 0.98.0</td>
             <td>Semi-automated tool</td>
             <td>
               Consistent </td>
@@ -643,7 +653,7 @@ h2#sidebar-header {
             <td><a href="/WAI/standards-guidelines/act/implementations/axe-devtools-pro#breakdown-46ca7f"><img alt="Axe DevTools Pro Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
-            <td>Axe-core 4.8.3</td>
+            <td>Axe-core 4.10.2</td>
             <td>Automated tool</td>
             <td>
               Consistent </td>
@@ -664,7 +674,7 @@ h2#sidebar-header {
             <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-46ca7f"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
-            <td>SortSite 6.45</td>
+            <td>SortSite 6.55</td>
             <td>Automated tool</td>
             <td>
               Consistent </td>
@@ -718,7 +728,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 46ca7f</p>
-<p><strong>Date:</strong> Updated 21 November 2024</p>
+<p><strong>Date:</strong> Updated 7 February 2025</p>
 <p><strong>Authors:</strong> <a href="https://github.com/Jym77">Jean-Yves Moyen</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 </div>
@@ -754,9 +764,9 @@ h2#sidebar-header {
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1738835718049382927"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1739265392421624303"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1738835718049382927"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1739265392421624303"></script>
 <script>
   svg4everybody();
 </script><script>
