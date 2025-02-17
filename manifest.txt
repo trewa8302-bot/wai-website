@@ -2885,6 +2885,7 @@
 /fundamentals/fr.html
 /fundamentals/index.html
 /fundamentals/pl.html
+/fundamentals/pt-BR.html
 /index.html
 /manifest.txt
 /media/av/acknowledgements/index.html
@@ -3652,6 +3653,7 @@
 /tutorials/images/decision-tree/ja.html
 /tutorials/images/decision-tree/ko.html
 /tutorials/images/decision-tree/pl.html
+/tutorials/images/decision-tree/pt-BR.html
 /tutorials/images/decorative/index.html
 /tutorials/images/examples/2014-first-qtr/index.html
 /tutorials/images/examples/imagemap/index.html
