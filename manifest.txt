@@ -3654,6 +3654,7 @@
 /tutorials/images/decision-tree/ko.html
 /tutorials/images/decision-tree/pl.html
 /tutorials/images/decision-tree/pt-BR.html
+/tutorials/images/decision-tree/zh-hans.html
 /tutorials/images/decorative/index.html
 /tutorials/images/examples/2014-first-qtr/index.html
 /tutorials/images/examples/imagemap/index.html
