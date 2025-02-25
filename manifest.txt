@@ -3218,12 +3218,16 @@
 /planning-and-managing/plan/index.html
 /planning-and-managing/sustain/index.html
 /planning/arrm/acknowledgements/index.html
+/planning/arrm/content-author/index.html
 /planning/arrm/decision-tree/index.html
+/planning/arrm/front-end/index.html
 /planning/arrm/index.html
 /planning/arrm/roles/index.html
 /planning/arrm/sc-map/index.html
+/planning/arrm/table/index.html
 /planning/arrm/tasks/index.html
 /planning/arrm/user-experience/index.html
+/planning/arrm/visual-designer/index.html
 /planning/arrm/wcag-sc/index.html
 /planning/changelog/index.html
 /planning/es.html
