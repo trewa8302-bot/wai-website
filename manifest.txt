@@ -724,6 +724,8 @@
 /content-assets/wai-aria-practices/shared/js/utils.js
 /content-assets/wai-aria-practices/shared/templates/example-usage-warning.html
 /content-assets/wai-aria-practices/styles.css
+/content-assets/wai-arrm/arrm-all-tasks.csv
+/content-assets/wai-arrm/arrm-wcag-sc.csv
 /content-assets/wcag-act-rules/act-styles.css
 /content-assets/wcag-act-rules/bar-chart-fill.svg
 /content-assets/wcag-act-rules/earl-context.json
@@ -2766,6 +2768,7 @@
 /content-images/wai-aria-practices/patterns/treeview/examples/images/right-arrow-brown.png
 /content-images/wai-aria-practices/w3c.svg
 /content-images/wai-aria-practices/wai.svg
+/content-images/wai-arrm/arrm-social.png
 /content-images/wai-course-list/clear.svg
 /content-images/wai-course-list/w3c.png
 /content-images/wai-evaluation-tools-list/accessibilitystatement.png
@@ -3221,6 +3224,7 @@
 /perspective-videos/voice/fr.html
 /perspective-videos/voice/index.html
 /planning-and-managing/acknowledgements/index.html
+/planning-and-managing/changelog/index.html
 /planning-and-managing/implement/index.html
 /planning-and-managing/index.html
 /planning-and-managing/initiate/index.html
