@@ -3232,8 +3232,6 @@
 /planning/arrm/front-end/index.html
 /planning/arrm/index.html
 /planning/arrm/roles/index.html
-/planning/arrm/sc-map/index.html
-/planning/arrm/table/index.html
 /planning/arrm/tasks/index.html
 /planning/arrm/user-experience/index.html
 /planning/arrm/visual-designer/index.html
