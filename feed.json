@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2025-03-06/arrm/",
+            "title": "For Review: Accessibility Roles and Responsibilities Mapping (ARRM) — First Draft",
+            "summary": null,
+            "content_text": "Accessibility Roles and Responsibilities Mapping (ARRM) is ready for review. ARRM helps your team create more accessible digital products and services. ARRM provides an approach for defining roles, tasks, and responsibilities for meeting Web Content Accessibility Guidelines (WCAG). If you would like to be involved in developing ARRM, we encourage you to join the ARRM Community Group.",
+            "content_html": "<p><a href=\"https://www.w3.org/WAI/planning/arrm/\">Accessibility Roles and Responsibilities Mapping (ARRM)</a> is ready for review. ARRM helps your team create more accessible digital products and services. ARRM provides an approach for defining roles, tasks, and responsibilities for meeting Web Content Accessibility Guidelines (<a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/\">WCAG</a>). If you would like to be involved in developing ARRM, we encourage you to join the <a href=\"https://www.w3.org/community/arrm/\">ARRM Community Group</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2025-03-06/arrm/",
+            
+            
+            
+            
+            
+            "date_published": "2025-03-06T00:00:00+00:00",
+            "date_modified": "2025-03-06T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2025-01-21/ctaur/",
             "title": "Collaboration Tools Accessibility User Requirements - Note Published",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2022-12-12T00:00:00+00:00",
             "date_modified": "2022-12-12T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2022-12-06/act-rules/",
-            "title": "ACT Rules for Accessibility Evaluation Tools And Methodologies",
-            "summary": null,
-            "content_text": "Accessibility Conformance Testing (ACT) Rules help evaluation tools and methodologies produced accurate, consistent results. ACT Rules help test accessibility standards more reliably. Learn more About ACT Rules. We encourage evaluation tools and methodologies to implement the individual ACT Rules and to share your implementation report on the W3C WAI website. Learn about submitting an implementation.",
-            "content_html": "<p>Accessibility Conformance Testing (ACT) Rules help evaluation tools and methodologies produced accurate, consistent results. ACT Rules help test accessibility standards more reliably. Learn more <a href=\"https://www.w3.org/WAI/standards-guidelines/act/rules/about/\">About ACT Rules</a>. We encourage evaluation tools and methodologies to implement the individual ACT Rules and to share your implementation report on the W3C WAI website. Learn about <a href=\"https://www.w3.org/WAI/standards-guidelines/act/report/submit/\">submitting an implementation</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2022-12-06/act-rules/",
-            
-            
-            
-            
-            
-            "date_published": "2022-12-06T00:00:00+00:00",
-            "date_modified": "2022-12-06T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
