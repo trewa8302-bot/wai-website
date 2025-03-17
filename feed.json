@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2025-03-17/wcag-22-french/",
+            "title": "WCAG 2.2 in French – Authorized Translation Published",
+            "summary": null,
+            "content_text": "Règles pour l’accessibilité des contenus Web (WCAG) 2.2, the French authorized translation of Web Content Accessibility Guidelines 2.2 (WCAG), is now available. This translation followed the W3C Authorized Translations process.Other translations of WAI resources are listed in All WAI Translations.WAI thanks all who contribute to translations, and encourages translations of W3C accessibility standards and resources in all languages. If you might be interested in translating resources, see Translating WAI Resources.",
+            "content_html": "<p><a href=\"https://www.w3.org/Translations/WCAG22-fr/\">Règles pour l’accessibilité des contenus Web (WCAG) 2.2</a>, the French authorized translation of Web Content Accessibility Guidelines 2.2 (<a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/\">WCAG</a>), is now available. This translation followed the <a href=\"https://www.w3.org/2005/02/TranslationPolicy\">W3C Authorized Translations process</a>.</p><p>Other translations of WAI resources are listed in <a href=\"https://www.w3.org/WAI/translations/\">All WAI Translations</a>.</p><p>WAI thanks all who contribute to translations, and encourages translations of W3C accessibility standards and resources in all languages. If you might be interested in translating resources, see <a href=\"https://www.w3.org/WAI/about/translating/\">Translating WAI Resources</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2025-03-17/wcag-22-french/",
+            
+            
+            
+            
+            
+            "date_published": "2025-03-17T00:00:00+00:00",
+            "date_modified": "2025-03-17T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2025-03-06/arrm/",
             "title": "For Review: Accessibility Roles and Responsibilities Mapping (ARRM) — First Draft",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2022-12-15T00:00:00+00:00",
             "date_modified": "2022-12-15T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2022-12-12/atag-resources/",
-            "title": "New Resources: For CMS, LMS, no-code website builders, and other authoring tools",
-            "summary": null,
-            "content_text": "New resources encourage content management systems (CMS), learning management systems (LMS), social media platforms, and no-code website tools to be more accessible. For vendors: We invite you to submit information about accessibility support in your tool for the Authoring Tools List. For everyone:  To introduce accessibility issues and how the web standard Authoring Tool Accessibility Guidelines (ATAG) applies to specific types of tools, you can share with developers, project managers, and others: Standards to Make Your LMS Accessible, Guidelines to Make Your Social Media Platform Accessible, Guidelines to Make Your No-Code Website Tool Accessible.",
-            "content_html": "<p>New resources encourage content management systems (CMS), learning management systems (LMS), social media platforms, and no-code website tools to be more accessible. <em>For vendors: </em>We invite you to submit information about accessibility support in your tool for the <a href=\"https://www.w3.org/WAI/tools-list/authoring/\">Authoring Tools List</a>. <em>For everyone: </em> To introduce accessibility issues and how the web standard Authoring Tool Accessibility Guidelines (<a href=\"https://www.w3.org/WAI/standards-guidelines/atag/\">ATAG</a>) applies to specific types of tools, you can share with developers, project managers, and others: <a href=\"https://www.w3.org/WAI/standards-guidelines/atag/education/\">Standards to Make Your <strong>LMS</strong> Accessible</a>, <a href=\"https://www.w3.org/WAI/standards-guidelines/atag/social-media/\">Guidelines to Make Your <strong>Social Media</strong> Platform Accessible</a>, <a href=\"https://www.w3.org/WAI/standards-guidelines/atag/no-code/\">Guidelines to Make Your No-Code <strong>Website Tool</strong> Accessible</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2022-12-12/atag-resources/",
-            
-            
-            
-            
-            
-            "date_published": "2022-12-12T00:00:00+00:00",
-            "date_modified": "2022-12-12T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
