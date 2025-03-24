@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1742557442722112692";
+      element.src = "/WAI/assets/scripts/main.js?1742840093894028123";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1742557442722112692">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1742840093894028123">
 
-<title> Image has non-empty accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1742557442722112692"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> Image has non-empty accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1742840093894028123"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="Image has non-empty accessible name" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -349,6 +349,7 @@ h2#sidebar-header {
   <li>There are several popular browsers that do not treat images with an empty <code class="language-plaintext highlighter-rouge">alt</code> attribute (<code class="language-plaintext highlighter-rouge">alt=""</code>) as having a role of <code class="language-plaintext highlighter-rouge">presentation</code> but instead add the <code class="language-plaintext highlighter-rouge">img</code> element to the accessibility tree with a <a href="#semantic-role" title="Definition of semantic role">semantic role</a> of either <code class="language-plaintext highlighter-rouge">img</code> or <code class="language-plaintext highlighter-rouge">graphic</code>.</li>
   <li>Implementation of <a href="https://www.w3.org/TR/wai-aria-1.2/#conflict_resolution_presentation_none" title="Presentational Roles Conflict Resolution">Presentational Roles Conflict Resolution</a> varies from one browser or assistive technology to another. Depending on this, some <a href="#semantic-role" title="Definition of semantic role">semantic</a> <code class="language-plaintext highlighter-rouge">img</code> elements can fail this rule with some technology but users of other technologies would not experience any accessibility issue.</li>
   <li>Images can have their role set to <code class="language-plaintext highlighter-rouge">presentation</code> through an empty <code class="language-plaintext highlighter-rouge">alt</code> attribute. <a href="https://www.w3.org/TR/wai-aria-1.2/#conflict_resolution_presentation_none" title="Presentational Roles Conflict Resolution">Presentational Roles Conflict Resolution</a> does not specify what to do if such an image is <a href="#focusable" title="Definition of focusable">focusable</a> (it only specifies what to do in case of explicit <code class="language-plaintext highlighter-rouge">role="none"</code> or <code class="language-plaintext highlighter-rouge">role="presentation"</code>). Some browsers expose these images and some don’t. Thus, this rule may fail for technologies that expose these without creating an accessibility issue for users of other technologies.</li>
+  <li><code class="language-plaintext highlighter-rouge">svg</code> elements have an <a href="#implicit-role" title="Definition of implicit role">implicit role</a> of <code class="language-plaintext highlighter-rouge">graphics-document</code> in <a href="https://www.w3.org/TR/svg-aam-1.0/#details-id-66">svg-aam</a>. There are popular browsers that do not follow <a href="https://www.w3.org/TR/svg-aam-1.0/#details-id-66">svg-aam</a> and instead expose SVG elements with a different <a href="#semantic-role" title="Definition of semantic role">semantic role</a>, such as <code class="language-plaintext highlighter-rouge">image</code>, <code class="language-plaintext highlighter-rouge">generic</code> or <code class="language-plaintext highlighter-rouge">SvgRoot</code>.</li>
 </ul>
 
 <h3 id="bibliography">Bibliography</h3>
@@ -554,18 +555,7 @@ h2#sidebar-header {
 
 <h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
 
-<p><a class="example-link" title="Inapplicable Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/cd3b3a4046451da9b9cc3e166c09d27583a2c30b.html">Open in a new tab</a></p>
-
-<p>This <code class="language-plaintext highlighter-rouge">svg</code> element has an <a href="#implicit-role" title="Definition of implicit role">implicit role</a> of <code class="language-plaintext highlighter-rouge">graphics-document</code>.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">width=</span><span class="s">"100"</span> <span class="na">height=</span><span class="s">"100"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">"50"</span> <span class="na">cy=</span><span class="s">"50"</span> <span class="na">r=</span><span class="s">"40"</span> <span class="na">stroke=</span><span class="s">"green"</span> <span class="na">stroke-width=</span><span class="s">"4"</span> <span class="na">fill=</span><span class="s">"yellow"</span> <span class="nt">/&gt;</span>
-<span class="nt">&lt;/svg&gt;</span>
-</code></pre></div></div>
-
-<h4 id="inapplicable-example-2">Inapplicable Example 2</h4>
-
-<p><a class="example-link" title="Inapplicable Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/25e5364c0a1320a08e2742fa59a0f8627591bc61.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Inapplicable Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/25e5364c0a1320a08e2742fa59a0f8627591bc61.html">Open in a new tab</a></p>
 
 <p>This <a href="#semantic-role" title="Definition of semantic role">semantic</a> <code class="language-plaintext highlighter-rouge">img</code> element is hidden with <code class="language-plaintext highlighter-rouge">aria-hidden</code> set to “true”.</p>
 
@@ -576,18 +566,18 @@ h2#sidebar-header {
 <span class="nt">&gt;&lt;/div&gt;</span>
 </code></pre></div></div>
 
-<h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
+<h4 id="inapplicable-example-2">Inapplicable Example 2</h4>
 
-<p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/e15b9aca4aaa53cb3a96ae48e78e1af064b9a01d.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Inapplicable Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/e15b9aca4aaa53cb3a96ae48e78e1af064b9a01d.html">Open in a new tab</a></p>
 
 <p>This <code class="language-plaintext highlighter-rouge">img</code> element is hidden with <code class="language-plaintext highlighter-rouge">aria-hidden</code> set to “true”.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/test-assets/shared/w3c-logo.png"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span> <span class="nt">/&gt;</span>
 </code></pre></div></div>
 
-<h4 id="inapplicable-example-4">Inapplicable Example 4</h4>
+<h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
 
-<p><a class="example-link" title="Inapplicable Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/7d696551efaafa0da33bb6e56b8b43707c7c7de9.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/7d696551efaafa0da33bb6e56b8b43707c7c7de9.html">Open in a new tab</a></p>
 
 <p>This <code class="language-plaintext highlighter-rouge">img</code> element is hidden because its parent has <code class="language-plaintext highlighter-rouge">display: none</code>.</p>
 
@@ -596,9 +586,9 @@ h2#sidebar-header {
 <span class="nt">&lt;/div&gt;</span>
 </code></pre></div></div>
 
-<h4 id="inapplicable-example-5">Inapplicable Example 5</h4>
+<h4 id="inapplicable-example-4">Inapplicable Example 4</h4>
 
-<p><a class="example-link" title="Inapplicable Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/f7692caf5f8c788d58e1aeb8d4f1f240fafdfa91.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Inapplicable Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/f7692caf5f8c788d58e1aeb8d4f1f240fafdfa91.html">Open in a new tab</a></p>
 
 <p>This <code class="language-plaintext highlighter-rouge">img</code> element is hidden with <code class="language-plaintext highlighter-rouge">visibility: hidden</code>.</p>
 
@@ -779,14 +769,14 @@ h2#sidebar-header {
       </thead>
       <tbody>
           <tr>
-            <td>Alfa (fully automated) 0.99.0</td>
+            <td>Alfa (fully automated) 0.101.0</td>
             <td>Automated tool</td>
             <td>
               Consistent </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-23a2a8"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
-            <td>Alfa (semi-automated) 0.99.0</td>
+            <td>Alfa (semi-automated) 0.101.0</td>
             <td>Semi-automated tool</td>
             <td>
               Consistent </td>
@@ -875,7 +865,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 23a2a8</p>
-<p><strong>Date:</strong> Updated 2 December 2024</p>
+<p><strong>Date:</strong> Updated 17 March 2025</p>
 <p><strong>Authors:</strong> <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Previous Authors: <a href="https://github.com/annethyme">Anne Thyme Nørregaard</a>, <a href="https://github.com/skotkjerra">Stein Erik Skotkjerra</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 </div>
@@ -911,9 +901,9 @@ h2#sidebar-header {
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1742557442722112692"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1742840093894028123"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1742557442722112692"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1742840093894028123"></script>
 <script>
   svg4everybody();
 </script><script>
