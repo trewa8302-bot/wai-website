@@ -3167,6 +3167,7 @@
 /news/2025-01-21/ctaur/index.html
 /news/2025-03-06/arrm/index.html
 /news/2025-03-17/wcag-22-french/index.html
+/news/2025-03-27/wcag-22-brazilian-portuguese/index.html
 /news/21/index.html
 /news/22/index.html
 /news/23/index.html

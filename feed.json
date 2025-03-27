@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2025-03-27/wcag-22-brazilian-portuguese/",
+            "title": "WCAG 2.2 in Brazilian Portuguese – Authorized Translation Published",
+            "summary": null,
+            "content_text": "Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2, the Brazilian Portuguese Authorized Translation of Web Content Accessibility Guidelines 2.2 (WCAG), is now available. This translation followed the W3C Authorized Translations process.Other translations of WAI resources are listed in All WAI Translations.WAI thanks all who contribute to translations, and encourages translations of W3C accessibility standards and resources in all languages. If you might be interested in translating resources, see Translating WAI Resources.",
+            "content_html": "<p><a href=\"https://www.w3.org/Translations/WCAG22-pt-BR/\">Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2</a>, the Brazilian Portuguese Authorized Translation of Web Content Accessibility Guidelines 2.2 (<a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/\">WCAG</a>), is now available. This translation followed the <a href=\"https://www.w3.org/2005/02/TranslationPolicy\">W3C Authorized Translations process</a>.</p><p>Other translations of WAI resources are listed in <a href=\"https://www.w3.org/WAI/translations/\">All WAI Translations</a>.</p><p>WAI thanks all who contribute to translations, and encourages translations of W3C accessibility standards and resources in all languages. If you might be interested in translating resources, see <a href=\"https://www.w3.org/WAI/about/translating/\">Translating WAI Resources</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2025-03-27/wcag-22-brazilian-portuguese/",
+            
+            
+            
+            
+            
+            "date_published": "2025-03-27T00:00:00+00:00",
+            "date_modified": "2025-03-27T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2025-03-17/wcag-22-french/",
             "title": "WCAG 2.2 in French – Authorized Translation Published",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2023-01-05T00:00:00+00:00",
             "date_modified": "2023-01-05T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2022-12-15/symposium/",
-            "title": "Invitation: AI and Accessibility Symposium, 10-11 January 2023, online",
-            "summary": null,
-            "content_text": "You are invited to the Artificial Intelligence and Accessibility Research Symposium 10&ndash;11 January 2023. This online symposium brings together researchers, academics, industry, government, and people with disabilities to explore an aspect of emerging technology for accessibility: artificial intelligence (AI). Program, schedule, and registration information is in the meeting page. The symposium is free, and registration is required by 5 January 2023.",
-            "content_html": "<p>You are invited to the <a href=\"https://www.w3.org/WAI/about/projects/wai-coop/symposium2/\">Artificial Intelligence and Accessibility Research Symposium 10&ndash;11 January 2023</a>. This online symposium brings together researchers, academics, industry, government, and people with disabilities to explore an aspect of emerging technology for accessibility: artificial intelligence (AI). Program, schedule, and registration information is in the <a href=\"https://www.w3.org/WAI/about/projects/wai-coop/symposium2/\">meeting page</a>. The symposium is free, and registration is required by 5 January 2023.</p>",
-            "url": "https://www.w3.org/WAI/news/2022-12-15/symposium/",
-            
-            
-            
-            
-            
-            "date_published": "2022-12-15T00:00:00+00:00",
-            "date_modified": "2022-12-15T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
