@@ -9,13 +9,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1745359470476450221";
+      element.src = "/WAI/assets/scripts/main.js?1745483693766044898";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1745359470476450221">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1745483693766044898">
 
 <title> Resumen de los estándares de accesibilidad de W3C | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
@@ -167,10 +167,7 @@
     <section id="translation-info" class="doc-note-box doc-note-translation">
     <h2 class="visuallyhidden"><span lang="en">About this translation</span></h2>
     <p>Esta traducción voluntaria puede que no refleje de forma adecuada las intenciones de la <a href="/WAI/standards-guidelines/">versión original en inglés</a>.</p>
-    <p><strong>Traductor/a:</strong> <a href="http://www.muncharaz.eu/" rel="nofollow noopener" target="_blank">Carlos Muncharaz <svg focusable="false" aria-label="new tab/window" class="icon-external-link "><use xlink:href="/WAI/assets/images/icons.svg#icon-external-link"></use></svg></a>. Colaborador/a: Martín Álvarez-Espinar (CTIC), Jorge Rumoroso. <br />WAI les da las gracias a estos/as traductores/as y da la bienvenida a otras <a href="/WAI/about/translating/">traducciones</a>.</p><div class="translation-needs-update">
-          <p><svg focusable="false" aria-hidden="true" class="icon-warning "><use xlink:href="/WAI/assets/images/icons.svg#icon-warning"></use></svg> <strong><span lang="en">Notice:</span></strong> Versión en inglés actualizada posteriormente a esta traducción. &mdash; <a href="/WAI/standards-guidelines/changelog/">Registro de cambios</a><br />Versión en inglés actualizada: <span dir="auto">2024-02-29</span> — Traducción actualizada: <span dir="auto">2021-05-14</span>.
-          <br /><span lang="en">We welcome a <a href="/WAI/about/translating/">translation update</a>.</span></p>
-        </div></section><aside class="box box-full"><header class="box-h  box-h-full"> <h2> Resumen </h2></header><div class="box-i">
+    <p><strong>Traductor/a:</strong> <a href="http://www.muncharaz.eu/" rel="nofollow noopener" target="_blank">Carlos Muncharaz <svg focusable="false" aria-label="new tab/window" class="icon-external-link "><use xlink:href="/WAI/assets/images/icons.svg#icon-external-link"></use></svg></a>. Colaborador/a: Martín Álvarez-Espinar (CTIC), Jorge Rumoroso. <br />WAI les da las gracias a estos/as traductores/as y da la bienvenida a otras <a href="/WAI/about/translating/">traducciones</a>.</p></section><aside class="box box-full"><header class="box-h  box-h-full"> <h2> Resumen </h2></header><div class="box-i">
 
 <p>Esta página presenta pautas y otros estándares relacionados con la accesibilidad web.</p>
 
@@ -191,14 +188,14 @@
       <li><a href="#wcag2" id="markdown-toc-wcag2">Pautas de accesibilidad para el contenido web (WCAG) 2</a></li>
       <li><a href="#atag" id="markdown-toc-atag">Pautas de accesibilidad para las herramientas de creación de contenido (ATAG)</a></li>
       <li><a href="#uaag" id="markdown-toc-uaag">Pautas de accesibilidad para el agente de usuario (UAAG)</a></li>
-      <li><a href="#wcag3" id="markdown-toc-wcag3">Pautas de accesibilidad del W3C (WCAG) 3 Borrador</a></li>
+      <li><a href="#wcag3" id="markdown-toc-wcag3">Borrador de las pautas de accesibilidad del W3C (WCAG) 3</a></li>
     </ul>
   </li>
   <li><a href="#especificaciones-técnicas" id="markdown-toc-especificaciones-técnicas">Especificaciones técnicas</a>    <ul>
       <li><a href="#aria" id="markdown-toc-aria">Aplicaciones de Internet Enriquecidas Accesibles (WAI-ARIA)</a></li>
       <li><a href="#multimedia" id="markdown-toc-multimedia">Audio y vídeo</a></li>
       <li><a href="#eval" id="markdown-toc-eval">Evaluación</a></li>
-      <li><a href="#personalización" id="markdown-toc-personalización">Personalización</a></li>
+      <li><a href="#wai-adapt" id="markdown-toc-wai-adapt">WAI-Adapt</a></li>
       <li><a href="#pronunciación" id="markdown-toc-pronunciación">Pronunciación</a></li>
     </ul>
   </li>
@@ -240,12 +237,12 @@
 
 <ul>
   <li><a href="/WAI/standards-guidelines/wcag/es">Sumario de WCAG 2</a></li>
-  <li><a href="/WAI/standards-guidelines/wcag/glance/es">WCAG 2.1 de un vistazo</a></li>
-  <li><a href="https://www.w3.org/WAI/WCAG21/quickref/">Cómo seguir las pautas WCAG 2 (Guía rápida)</a></li>
+  <li><a href="/WAI/standards-guidelines/wcag/glance/es">WCAG 2 de un vistazo</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG22/quickref/">Cómo seguir las pautas WCAG 2 (Guía rápida)</a></li>
   <li><a href="/WAI/standards-guidelines/wcag/translations/" hreflang="en">Traducciones WCAG 2 (en Inglés)</a></li>
-  <li><a href="https://www.w3.org/TR/WCAG20/">Estándar WCAG 2.0</a></li>
+  <li><a href="https://www.w3.org/TR/WCAG22/">Estándar WCAG 2.2</a>, <a href="/WAI/standards-guidelines/wcag/new-in-22/" hreflang="en">Novedades en WCAG 2.2 (en Inglés)</a></li>
   <li><a href="https://www.w3.org/TR/WCAG21/">Estándar WCAG 2.1</a>, <a href="/WAI/standards-guidelines/wcag/new-in-21/es">Novedades en WCAG 2.1</a></li>
-  <li><a href="/WAI/standards-guidelines/wcag/new-in-22/" hreflang="en">Novedades en el borrador de WCAG 2.2 (en Inglés)</a></li>
+  <li><a href="https://www.w3.org/TR/WCAG20/">Estándar WCAG 2.0</a></li>
 </ul>
 
 <h3 id="atag">Pautas de accesibilidad para las herramientas de creación de contenido (ATAG)</h3>
@@ -274,7 +271,7 @@
   <li><a href="https://www.w3.org/TR/UAAG20/">Nota sobre UAAG 2.0</a></li>
 </ul>
 
-<h3 id="wcag3">Pautas de accesibilidad del W3C (WCAG) 3 Borrador</h3>
+<h3 id="wcag3">Borrador de las pautas de accesibilidad del W3C (WCAG) 3</h3>
 
 <p>Las pautas WCAG 3 se encuentran en un borrador inicial que se convertirá en un estándar W3C. WCAG 3 afecta al contenido web, aplicaciones, herramientas, publicaciones y tecnologías emergentes en la web.</p>
 
@@ -296,7 +293,7 @@
 <ul>
   <li><a href="/WAI/standards-guidelines/aria/" hreflang="en">Resumen de WAI-ARIA (en Inglés)</a> – incluye <a href="/WAI/standards-guidelines/aria/#versions" hreflang="en">lista y descripción de módulos y esquemas API (en Inglés)</a></li>
   <li><a href="https://www.w3.org/TR/wai-aria-practices/">Prácticas de autor de WAI-ARIA</a></li>
-  <li><a href="https://www.w3.org/TR/wai-aria-1.1/">Estándar WAI-ARIA 1.1</a></li>
+  <li><a href="https://www.w3.org/TR/wai-aria-1.2/">Estándar WAI-ARIA 1.2</a></li>
 </ul>
 
 <h3 id="multimedia">Audio y vídeo</h3>
@@ -316,7 +313,7 @@
 
 <ul>
   <li>
-    <p><a href="/WAI/standards-guidelines/act/" hreflang="en">Resumen de Pruebas de Conformidad de Accesibilidad (ACT) (en Inglés)</a> — ACT establece y describe normas para comprobar la conformidad del contenido web con los estándares de accesibilidad.</p>
+    <p><a href="/WAI/standards-guidelines/act/" hreflang="en">Resumen de Pruebas de Conformidad de Accesibilidad (ACT) (en Inglés)</a> — ACT establece y describe normas para comprobar la conformidad del contenido web con los estándares de accesibilidad. Las <a href="/WAI/standards-guidelines/act/rules/about/" hreflang="en">normas para pruebas WCAG 2 (en Inglés)</a> usan el formato de normas ACT.</p>
   </li>
   <li>
     <p><a href="/WAI/standards-guidelines/earl/" hreflang="en">Resumen de Lenguaje de Evaluación e Informes (EARL) (en Inglés)</a> — EARL es un formato para ser leído por aplicaciones que sirve para expresar los resultados de las pruebas.</p>
@@ -329,9 +326,9 @@
   <li><a href="/WAI/test-evaluate/conformance/wcag-em/" hreflang="en">Resumen de WCAG-EM: Metodología de Evaluación de Conformidad con la Accesibilidad en sitios Web (en Inglés)</a> — WCAG-EM es una aproximación para determinar cuánto se ajusta un sitio web a las pautas de accesibilidad para el contenido web (WCAG).</li>
 </ul>
 
-<h3 id="personalización">Personalización</h3>
+<h3 id="wai-adapt">WAI-Adapt</h3>
 
-<p><a href="/WAI/adapt/" hreflang="en">Resumen sobre la personalización (en Inglés)</a> — La personalización consiste en ajustar la experiencia del usuario a fin de cubrir las necesidades y preferencias individuales. Los autores de contenido pueden usar estándares de personalización para proporcionar un diseño por defecto y permitir la personalización del usuario con un esfuerzo mínimo.</p>
+<p><a href="/WAI/adapt/" hreflang="en">Resumen de WAI-Adapt (en Inglés)</a> — WAI-Adapt permite que los usuarios adapten (o “personalicen”) la presentación del contenido para cubrir sus necesidades y preferencias. Los autores de contenido pueden usar estándares WAI-Adapt para proporcionar un diseño por defecto y permitir la personalización del usuario con un esfuerzo mínimo.</p>
 
 <h3 id="pronunciación">Pronunciación</h3>
 
@@ -384,9 +381,9 @@ https://github.com/w3c/wai-website/edit/main/pages/standards-guidelines/index.es
 
 
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
-    <div class="inner"><p><strong>Versión en inglés actualizada:</strong> 2021-04-30.
+    <div class="inner"><p><strong>Versión en inglés actualizada:</strong> 2024-02-29.
           <a href="/WAI/standards-guidelines/changelog/">Registro de cambios</a>.
-          (<span lang="en">Translated:</span> 2021-05-14).</p><p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p> <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
+          (<span lang="en">Translated:</span> 2025-04-13).</p><p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p> <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 </div>
   </footer>
   <footer class="site-footer grid-4q" aria-label="Site">
@@ -420,13 +417,13 @@ https://github.com/w3c/wai-website/edit/main/pages/standards-guidelines/index.es
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1745359470476450221"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1745483693766044898"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1745359470476450221"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1745483693766044898"></script>
 <script>
   svg4everybody();
 </script>
-<script src="/WAI/assets/scripts/lang/es.js?1745359470476450221"></script>
+<script src="/WAI/assets/scripts/lang/es.js?1745483693766044898"></script>
 
   </body>
 </html>

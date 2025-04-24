@@ -2913,6 +2913,7 @@
 /fundamentals/accessibility-intro/changelog/index.html
 /fundamentals/accessibility-intro/cs.html
 /fundamentals/accessibility-intro/de.html
+/fundamentals/accessibility-intro/el.html
 /fundamentals/accessibility-intro/es.html
 /fundamentals/accessibility-intro/fr.html
 /fundamentals/accessibility-intro/id.html

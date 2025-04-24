@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html class="no-js" lang="el" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1745483693766044898";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1745483693766044898">
+
+<title> Εισαγωγή στην Προσβασιμότητα του Ιστού (Web Accessibility) | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Εισαγωγή στην Προσβασιμότητα του Ιστού (Web Accessibility)" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="el" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/fundamentals/accessibility-intro/el" />
+<meta property="og:url" content="https://www.w3.org/WAI/fundamentals/accessibility-intro/el" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Εισαγωγή στην Προσβασιμότητα του Ιστού (Web Accessibility)" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Εισαγωγή στην Προσβασιμότητα του Ιστού (Web Accessibility)","url":"https://www.w3.org/WAI/fundamentals/accessibility-intro/el"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-εισαγωγή-στην-προσβασιμότητα-του-ιστού-web-accessibility ">
+    <nav aria-label="Παράλειψη Συνδέσμου και Επιλογής Γλώσσας" id="controls" class="default-grid">
+  <ul>
+      <li><a href="#main">Μετάβαση στο Κύριο Περιεχόμενο</a></li>
+      <li class="opt"><a href="/WAI/meta/customize/">Αλλαγή Μεγέθους Κειμένου ή Χρωμάτων</a></li>
+      <li class="opt languagelist">
+          <strong>Ο&nbsp;ιστότοπος&nbsp;αυτός&nbsp;σε:</strong>
+          <ul class="languagelistul"><li><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/" lang="en"  dir="auto" translate="no">English</a></li><li><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/ar" lang="ar"  dir="auto" translate="no">العربية</a></li>
+          <li><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/cs" lang="cs"  dir="auto" translate="no">čeština</a></li>
+          <li><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/de" lang="de"  dir="auto" translate="no">Deutsch</a></li>
+          <li><strong style="text-transform: capitalize;">Ελληνικά</strong></li>
+          <li><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/es" lang="es"  dir="auto" translate="no">español</a></li>
+          <li><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/fr" lang="fr"  dir="auto" translate="no">français</a></li>
+          <li><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/id" lang="id"  dir="auto" translate="no">Bahasa Indonesia</a></li>
+          <li><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/ko" lang="ko"  dir="auto" translate="no">한국어</a></li>
+          <li><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/pl" lang="pl"  dir="auto" translate="no">polski</a></li>
+          <li><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/pt-BR" lang="pt-BR"  dir="auto" translate="no">Português do Brasil</a></li>
+          <li><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/ru" lang="ru"  dir="auto" translate="no">русский язык</a></li>
+          <li><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/zh-hans" lang="zh-hans"  dir="auto" translate="no">简体中文</a></li>
+          </ul>
+        </li>
+        <li class="opt">
+          <a href="/WAI/translations/">Όλες&nbsp;οι&nbsp;Μεταφράσεις <svg focusable="false" aria-hidden="true" class="icon-translations "><use xlink:href="/WAI/assets/images/icons.svg#icon-translations"></use></svg></a>
+        </li>
+        <li><button id="showoptions" data-showhidebuttonid="header-showoptions" class="showhidebutton button-inline" data-target="#controls .opt" aria-expanded="false" data-large-aria-expanded="true" data-showtext='<svg focusable="false" aria-hidden="true" class="icon-languages "><use xlink:href="/WAI/assets/images/icons.svg#icon-languages"></use></svg> Εμφάνιση Παραμετροποίησης, Γλωσσών, Μεταφράσεων' data-hidetext='Απόκρυψη Επιλογών'><svg focusable="false" aria-hidden="true" class="icon-languages "><use xlink:href="/WAI/assets/images/icons.svg#icon-languages"></use></svg> Εμφάνιση Παραμετροποίησης, Γλωσσών, Μεταφράσεων</button></li>
+      </ul>
+    </nav>
+<header id="site-header" class="default-grid with-gap">
+  <div class="logos">
+    <a lang="en" class="home w3c" href="https://www.w3.org/">
+      <svg role="img" aria-label="W3C" viewBox="0 0 68 34" xmlns="http://www.w3.org/2000/svg"><g><path d="m16.117 1.006 5.759 19.58 5.759-19.58h4.17 11.444v1.946l-5.879 10.128c2.065.663 3.627 1.868 4.686 3.615 1.059 1.748 1.589 3.799 1.589 6.155 0 2.914-.775 5.363-2.324 7.348s-3.555 2.978-6.017 2.978c-1.854 0-3.469-.589-4.845-1.767-1.377-1.178-2.396-2.773-3.058-4.786l3.256-1.35c.477 1.218 1.106 2.178 1.887 2.879.781.702 1.701 1.052 2.76 1.052 1.112 0 2.052-.622 2.82-1.866.768-1.245 1.152-2.74 1.152-4.489 0-1.933-.411-3.429-1.231-4.488-.954-1.244-2.45-1.867-4.489-1.867h-1.588v-1.906l5.56-9.612h-6.712l-.382.65-8.163 27.548h-.397l-5.958-19.937-5.957 19.937h-.397l-9.53-32.168h4.17l5.759 19.58 3.892-13.185-1.906-6.395z"/><path d="m64.92 1.006c-.819 0-1.554.295-2.111.861-.591.6-.92 1.376-.92 2.178s.313 1.545.887 2.128c.583.591 1.334.912 2.145.912.793 0 1.562-.321 2.161-.903.574-.557.887-1.3.887-2.136 0-.811-.321-1.57-.878-2.136-.584-.592-1.344-.904-2.171-.904zm2.643 3.065c0 .701-.271 1.351-.768 1.832-.524.507-1.174.777-1.892.777-.675 0-1.342-.278-1.84-.785s-.777-1.157-.777-1.849.287-1.368.802-1.891c.481-.49 1.131-.751 1.84-.751.726 0 1.376.271 1.883.785.49.489.752 1.147.752 1.882zm-2.559-1.807h-1.3v3.445h.65v-1.469h.642l.701 1.469h.726l-.769-1.57c.498-.102.785-.439.785-.929 0-.625-.472-.946-1.435-.946zm-.118.422c.608 0 .886.169.886.591 0 .405-.278.549-.87.549h-.549v-1.14z"/><path d="m59.807.825.676 4.107-2.391 4.575s-.918-1.941-2.443-3.015c-1.285-.905-2.122-1.102-3.431-.832-1.681.347-3.587 2.357-4.419 4.835-.995 2.965-1.005 4.4-1.04 5.718-.056 2.113.277 3.362.277 3.362s-1.452-2.686-1.438-6.62c.009-2.808.451-5.354 1.75-7.867 1.143-2.209 2.842-3.535 4.35-3.691 1.559-.161 2.791.59 3.743 1.403 1 .854 2.01 2.721 2.01 2.721z"/><path d="m60.102 24.063s-1.057 1.889-1.715 2.617c-.659.728-1.837 2.01-3.292 2.651s-2.218.762-3.656.624c-1.437-.138-2.772-.97-3.24-1.317s-1.664-1.369-2.34-2.322-1.733-2.859-1.733-2.859.589 1.91.958 2.721c.212.467.864 1.894 1.789 3.136.863 1.159 2.539 3.154 5.086 3.604 2.547.451 4.297-.693 4.73-.97s1.346-1.042 1.924-1.66c.603-.645 1.174-1.468 1.49-1.962.231-.36.607-1.092.607-1.092z"/></g></svg>
+    </a>
+    <a lang="en" class="home" href="/WAI/">
+      <span class="wai"><span class="wa">Web&nbsp;Accessibility</span> <span class="i"><span class="initieative">Initiative</span> <span>WAI</span></span></span>
+    </a>
+    <div class="claim">
+      <span>Στρατηγικές, πρότυπα και υλικό για ένα Παγκόσμιο Ιστό προσβάσιμο σε άτομα με ειδικές ανάγκες</span>
+    </div>
+    <button class="button button-menu" aria-haspopup="true" aria-expanded="false" id="openmenu"><span><svg focusable="false" aria-hidden="true" class="icon-menu "><use xlink:href="/WAI/assets/images/icons.svg#icon-menu"></use></svg> Μενού</span></button>
+  </div>
+
+  <div class="navigations">
+  <nav class="metanav" aria-label="Meta &amp; Search" lang="en">
+    <ul>
+      <li><a href="/WAI/about/participating/">Get Involved</a></li>
+      <li><a href="/WAI/about/">About W3C WAI</a></li>
+      <li>
+        <form action="/WAI/search/" role="search">
+          <div>
+            <label for="header-search">
+              <span class="visuallyhidden">Αναζήτηση:</span>
+              <input id="header-search" type="search" name="q" placeholder="Αναζήτηση" aria-label="Αναζήτηση">
+            </label>
+            
+            <button class="button button-icon button-nobg button-noborder"><span><svg focusable="false" aria-label="Πραγματοποίηση Αναζήτησης" class="icon-search "><use xlink:href="/WAI/assets/images/icons.svg#icon-search"></use></svg></span></button>
+          </div>
+        </form>
+      </li>
+    </ul>
+  </nav>
+</div>
+</header><nav class="mainnav" aria-label="Κύριες ενότητες" lang="el"><ul><li><a lang="en" href="/WAI/fundamentals/"><span>Accessibility Fundamentals</span></a></li><li><a lang="en" href="/WAI/planning/"><span>Planning &amp; Policies</span></a></li><li><a lang="en" href="/WAI/design-develop/"><span>Design &amp; Develop</span></a></li><li><a lang="en" href="/WAI/test-evaluate/"><span>Test &amp; Evaluate</span></a></li><li><a lang="en" href="/WAI/teach-advocate/"><span>Teach &amp; Advocate</span></a></li><li><a lang="en" href="/WAI/standards-guidelines/"><span>Standards/<wbr>Guidelines</span></a></li></ul></nav><nav class="default-grid breadcrumb" aria-label="Πλοήγηση" lang="en">
+  <ul style="align-self: center;">
+    <li><a href="/WAI/" lang="en">Home</a></li><li><a lang="en" href="/WAI/fundamentals/"><span>Accessibility Fundamentals</span></a></li><li><a lang="el" href="/WAI/fundamentals/accessibility-intro/el" aria-current="page"><span>Introduction to Accessibility</span></a></li></ul>
+</nav>
+    <div class="default-grid with-gap leftcol">
+
+  
+      
+        <div class="sidenav"><nav class="sn-contents" aria-label="Secondary">
+      <ul class="sidenav--list">
+  <li>
+  <a lang="en" href="/WAI/fundamentals/" class="page-link"><span>Accessibility Fundamentals</span></a></li><li>
+  <a lang="el" href="/WAI/fundamentals/accessibility-intro/el" aria-current="page" class="page-link"><span>Introduction to Accessibility</span></a><ul><li>
+  <a lang="el" href="/WAI/videos/standards-and-benefits/el" class="page-link"><span>Εισαγωγή Βίντεο</span></a></li></ul></li><li>
+  <a lang="en" href="/WAI/people/" class="page-link"><span>Accessibility is About People</span></a><ul><li>
+  <a lang="en" href="/WAI/perspective-videos/" class="page-link"><span>Perspectives Videos</span></a><ul><li>
+  <a lang="en" href="/WAI/perspective-videos/keyboard/" class="page-link"><span>Keyboard Compatibility</span></a></li><li>
+  <a lang="en" href="/WAI/perspective-videos/contrast/" class="page-link"><span>Colors with Good Contrast</span></a></li><li>
+  <a lang="en" href="/WAI/perspective-videos/layout/" class="page-link"><span>Clear Layout and Design</span></a></li><li>
+  <a lang="en" href="/WAI/perspective-videos/speech/" class="page-link"><span>Text to Speech</span></a></li><li>
+  <a lang="en" href="/WAI/perspective-videos/controls/" class="page-link"><span>Large Links, Buttons, and Controls</span></a></li><li>
+  <a lang="en" href="/WAI/perspective-videos/captions/" class="page-link"><span>Video Captions</span></a></li><li>
+  <a lang="en" href="/WAI/perspective-videos/customizable/" class="page-link"><span>Customizable Text</span></a></li><li>
+  <a lang="en" href="/WAI/perspective-videos/voice/" class="page-link"><span>Speech Recognition</span></a></li><li>
+  <a lang="en" href="/WAI/perspective-videos/understandable/" class="page-link"><span>Understandable Content</span></a></li><li>
+  <a lang="en" href="/WAI/perspective-videos/notifications/" class="page-link"><span>Notifications and Feedback</span></a></li></ul></li><li>
+  <a lang="en" href="/WAI/people-use-web/" class="page-link"><span>How People with Disabilities Use the Web</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/user-stories/" class="page-link"><span>Stories of Web Users</span></a><ul><li>
+  <a lang="en" href="/WAI/people-use-web/user-stories/story-one/" class="page-link"><span>Ade&apos;s Story</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/user-stories/story-two/" class="page-link"><span>Ian&apos;s Story</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/user-stories/story-three/" class="page-link"><span>Lakshmi&apos;s Story</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/user-stories/story-four/" class="page-link"><span>Lexie&apos;s Story</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/user-stories/story-five/" class="page-link"><span>Sophie&apos;s Story</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/user-stories/story-six/" class="page-link"><span>Dhruv&apos;s Story</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/user-stories/story-seven/" class="page-link"><span>Marta&apos;s Story</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/user-stories/story-eight/" class="page-link"><span>Stefan&apos;s Story</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/user-stories/story-nine/" class="page-link"><span>Elias&apos; Story</span></a></li></ul></li><li>
+  <a lang="en" href="/WAI/people-use-web/abilities-barriers/" class="page-link"><span>Diverse Abilities and Barriers</span></a><ul><li>
+  <a lang="en" href="/WAI/people-use-web/abilities-barriers/auditory/" class="page-link"><span>Auditory</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/abilities-barriers/cognitive/" class="page-link"><span>Cognitive and Learning</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/abilities-barriers/physical/" class="page-link"><span>Physical</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/abilities-barriers/speech/" class="page-link"><span>Speech</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/abilities-barriers/visual/" class="page-link"><span>Visual</span></a></li></ul></li><li>
+  <a lang="en" href="/WAI/people-use-web/tools-techniques/" class="page-link"><span>Tools and Techniques</span></a><ul><li>
+  <a lang="en" href="/WAI/people-use-web/tools-techniques/perception/" class="page-link"><span>Perception</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/tools-techniques/presentation/" class="page-link"><span>Presentation</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/tools-techniques/input/" class="page-link"><span>Input</span></a></li><li>
+  <a lang="en" href="/WAI/people-use-web/tools-techniques/navigation/" class="page-link"><span>Interaction</span></a></li></ul></li><li>
+  <a lang="en" href="/WAI/older-users/" class="page-link"><span>Older Users and Accessibility</span></a><ul><li>
+  <a lang="en" href="/WAI/older-users/developing/" class="page-link"><span>How WCAG 2 Applies</span></a></li><li>
+  <a lang="en" href="/WAI/older-users/literature/" class="page-link"><span>Literature Review</span></a></li></ul></li><li>
+  <a lang="en" href="/WAI/fundamentals/accessibility-usability-inclusion/" class="page-link"><span>Accessibility, Usability, Inclusion</span></a></li></ul></li><li>
+  <a lang="en" href="/WAI/fundamentals/components/" class="page-link"><span>Components of Web Accessibility</span></a></li><li>
+  <a lang="en" href="/WAI/fundamentals/accessibility-principles/" class="page-link"><span>Accessibility Principles</span></a></li><li>
+  <a lang="en" href="/WAI/research/" class="page-link"><span>Research</span></a><ul><li>
+  <a lang="en" href="/WAI/research/user-requirements/" class="page-link"><span>User Requirements</span></a></li><li>
+  <a lang="en" href="/WAI/research/ai2023/" class="page-link"><span>AI and Accessibility</span></a></li></ul></li><li>
+  <a lang="en" href="/WAI/courses/" class="page-link"><span>Digital Accessibility Courses</span></a><ul><li>
+  <a lang="en" href="/WAI/courses/foundations-course/" class="page-link"><span>W3C Foundations Online Course</span></a></li><li>
+  <a lang="en" href="/WAI/courses/list/" class="page-link"><span>Course List</span></a></li></ul></li></ul></nav><nav class="sidenav-languages" aria-labelledby="languagehead">
+        <header id="languagehead">Γλώσσες / Μεταφράσεις</header>
+        <ul class="langlist">
+          <li style="margin-bottom: 2px;"><a href="/WAI/fundamentals/accessibility-intro/" lang="en" dir="auto" translate="no">English (original)</a></li><li style="margin-bottom: 2px;"><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/ar" dir="auto" translate="no" lang="ar">العربية</a></li><li style="margin-bottom: 2px;"><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/cs" dir="auto" translate="no" lang="cs">čeština</a></li><li style="margin-bottom: 2px;"><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/de" dir="auto" translate="no" lang="de">Deutsch</a></li><li style="margin-bottom: 2px;"><strong style="text-transform: capitalize;">Ελληνικά</strong></li><li style="margin-bottom: 2px;"><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/es" dir="auto" translate="no" lang="es">español</a></li><li style="margin-bottom: 2px;"><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/fr" dir="auto" translate="no" lang="fr">français</a></li><li style="margin-bottom: 2px;"><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/id" dir="auto" translate="no" lang="id">Bahasa Indonesia</a></li><li style="margin-bottom: 2px;"><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/ko" dir="auto" translate="no" lang="ko">한국어</a></li><li style="margin-bottom: 2px;"><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/pl" dir="auto" translate="no" lang="pl">polski</a></li><li style="margin-bottom: 2px;"><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/pt-BR" dir="auto" translate="no" lang="pt-BR">Português do Brasil</a></li><li style="margin-bottom: 2px;"><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/ru" dir="auto" translate="no" lang="ru">русский язык</a></li><li style="margin-bottom: 2px;"><a style="text-transform: capitalize;" href="/WAI/fundamentals/accessibility-intro/zh-hans" dir="auto" translate="no" lang="zh-hans">简体中文</a></li></ul><p><a href="/WAI/translations/#el">Άλλοι πόροι στη γλώσσα Ελληνικά</a></p>
+        
+        <p><a href="/WAI/translations/">Όλες&nbsp;οι&nbsp;Μεταφράσεις</a></p>
+        <p><a href="/WAI/about/translating/">Μετάφραση πόρων WAI</a></p>
+      </nav>
+</div>
+
+
+      
+  
+
+  <main id="main" lang="el">
+
+    
+
+    
+    <header>
+      <h1>
+      
+      
+      
+        Εισαγωγή στην Προσβασιμότητα του Ιστού (Web Accessibility)
+      
+      </h1></header>
+    <section id="translation-info" class="doc-note-box doc-note-translation">
+    <h2 class="visuallyhidden"><span lang="en">About this translation</span></h2>
+    <p>Αυτή η εθελοντική μετάφραση μπορεί να μην αντικατοπτρίζει με ακρίβεια τις προθέσεις του <a href="/WAI/fundamentals/accessibility-intro/">αγγλικού πρωτοτύπου</a>.</p>
+    <p><strong>Μεταφραστής:</strong> Πάνος Κουτσοδημητρόπουλος. <br />Το WAI ευχαριστεί αυτούς τους μεταφραστές και χαιρετίζει κι άλλες <a href="/WAI/about/translating/">μεταφράσεις</a>.</p></section><aside class="box box-full"><header class="box-h  box-h-full"> <h2> Περίληψη </h2></header><div class="box-i">
+
+<p>Όταν οι ιστότοποι και τα διαδικτυακά εργαλεία είναι κατάλληλα σχεδιασμένα και κωδικοποιημένα, τα άτομα με αναπηρία μπορούν να τα χρησιμοποιούν. Ωστόσο, επί του παρόντος, πολλοί ιστότοποι και εργαλεία αναπτύσσονται με εμπόδια προσβασιμότητας που καθιστούν δύσκολη ή αδύνατη τη χρήση τους από ορισμένα άτομα.</p>
+
+<p>Η προσβασιμότητα στον ιστό  (<span lang="en">web</span>) ωφελεί τα άτομα, τις επιχειρήσεις και την κοινωνία. Τα διεθνή πρότυπα ιστού καθορίζουν τι απαιτείται για την προσβασιμότητα.</p>
+
+</div></aside>
+
+
+
+<nav class="box box-simple box-full" aria-labelledby="tocheading" id="toc">
+  <header id="tocheading" class="box-h box-h-simple box-h-full"> Περιεχόμενα Σελίδας</header>
+  <div class="box-i">
+
+
+
+
+<ul id="markdown-toc">
+  <li><a href="#context" id="markdown-toc-context">Πλαίσιο Προσβασιμότητας</a></li>
+  <li><a href="#what" id="markdown-toc-what">Τι είναι η Προσβασιμότητα στον Παγκόσμιο Ιστό</a></li>
+  <li><a href="#important" id="markdown-toc-important">Η Προσβασιμότητα είναι Σημαντική για τα Άτομα, τις Επιχειρήσεις, την Κοινωνία</a></li>
+  <li><a href="#making" id="markdown-toc-making">Κάνοντας τον Παγκόσμιο Ιστό Προσβάσιμο</a></li>
+  <li><a href="#evaluate" id="markdown-toc-evaluate">Αξιολόγηση της Προσβασιμότητας</a></li>
+  <li><a href="#section" id="markdown-toc-section">Παραδείγματα</a></li>
+  <li><a href="#more-info" id="markdown-toc-more-info">Για Περισσότερες Πληροφορίες</a></li>
+</ul>
+
+<p><span class="box-h box-h-simple box-h-full">Σχετικός Πόρος</span><br />
+<a href="https://www.w3.org/WAI/videos/standards-and-benefits/el" class="video-link">
+  <img src="/WAI/content-images/intro-accessibility/video-still-accessibility-intro-16-9.jpg" alt="" />
+  <span>Βίντεο Εισαγωγή στην προσβασιμότητα στον Παγκόσμιο Ιστό και τα πρότυπα του W3C <em>(4 λεπτά)</em></span>
+</a></p>
+
+
+
+  </div>
+</nav>
+
+
+
+<h2 id="context">Πλαίσιο Προσβασιμότητας</h2>
+
+<blockquote class="pull">
+  <p>Η δύναμη του Ιστού έγκειται στην καθολικότητά του.<br />
+    Η πρόσβαση όλων, ανεξαρτήτως αναπηρίας, αποτελεί ουσιαστική πτυχή.</p>
+  <footer><cite><span lang="en">Tim Berners-Lee</span>, Διευθυντής του <span lang="en">W3C</span> και εφευρέτης του Παγκόσμιου Ιστού</cite></footer>
+</blockquote>
+
+<p>Ο Παγκόσμιος Ιστός είναι θεμελιωδώς σχεδιασμένος ώστε να λειτουργεί για όλους τους ανθρώπους, ανεξάρτητα από τον  εξοπλισμό (<span lang="en">hardware</span>), το λογισμικό, τη γλώσσα, την τοποθεσία ή την ικανότητά τους. Όταν ο Παγκόσμιος Ιστός ανταποκρίνεται σε αυτόν τον στόχο, είναι προσβάσιμος σε άτομα με ποικίλο φάσμα ακοής, κίνησης, όρασης και γνωστικών ικανοτήτων.</p>
+
+<p>Έτσι, ο αντίκτυπος της αναπηρίας αλλάζει ριζικά στον Παγκόσμιο Ιστό, επειδή ο Παγκόσμιος Ιστός καταργεί τα εμπόδια στην επικοινωνία και την αλληλεπίδραση που πολλοί άνθρωποι αντιμετωπίζουν στον φυσικό κόσμο. Ωστόσο, όταν οι ιστότοποι, οι εφαρμογές, οι τεχνολογίες ή τα εργαλεία είναι κακοσχεδιασμένα, μπορούν να δημιουργήσουν εμπόδια που αποκλείουν τους ανθρώπους από τη χρήση του Παγκόσμιου Ιστού.</p>
+
+<p><strong>Η προσβασιμότητα είναι απαραίτητη για τους προγραμματιστές και τους οργανισμούς που θέλουν να δημιουργήσουν ιστότοπους και διαδικτυακά εργαλεία υψηλής ποιότητας και να μην αποκλείουν τους ανθρώπους από τη χρήση των προϊόντων και των υπηρεσιών τους.</strong></p>
+
+<h2 id="what">Τι είναι η Προσβασιμότητα στον Παγκόσμιο Ιστό</h2>
+
+<p>Προσβασιμότητα στον ιστό σημαίνει ότι οι ιστότοποι, τα εργαλεία και οι τεχνολογίες σχεδιάζονται και αναπτύσσονται έτσι ώστε να μπορούν να τα χρησιμοποιούν τα άτομα με αναπηρία. Πιο συγκεκριμένα, τα άτομα μπορούν:</p>
+
+<ul>
+  <li>να αντιλαμβάνονται, να κατανοούν, να πλοηγούνται και να αλληλεπιδρούν με τον Παγκόσμιο Ιστό</li>
+  <li>να συνεισφέρουν στον Παγκόσμιο Ιστό</li>
+</ul>
+
+<p>Η προσβασιμότητα στον Παγκόσμιο Ιστό περιλαμβάνει όλες τις αναπηρίες που επηρεάζουν την πρόσβαση στον Παγκόσμιο Ιστό, συμπεριλαμβανομένων:</p>
+
+<ul>
+  <li>ακουστικές</li>
+  <li>γνωστικές</li>
+  <li>νευρολογικές</li>
+  <li>σωματικές</li>
+  <li>ομιλίας</li>
+  <li>οπτικές</li>
+</ul>
+
+<p>Η προσβασιμότητα στον ιστό ωφελεί επίσης άτομα <em>χωρίς</em> αναπηρία, για παράδειγμα:</p>
+
+<ul>
+  <li>άτομα που χρησιμοποιούν κινητά τηλέφωνα, έξυπνα ρολόγια, έξυπνες τηλεοράσεις και άλλες συσκευές με μικρές οθόνες, διαφορετικούς τρόπους διαφορετικούς τρόπους εισαγωγής δεδομένων κ.λπ.</li>
+  <li>άτομα μεγαλύτερης ηλικίας με μεταβαλλόμενες ικανότητες λόγω γήρανσης</li>
+  <li>άτομα με “προσωρινές αναπηρίες”, όπως ένα σπασμένο χέρι ή χαμένα γυαλιά</li>
+  <li>άτομα με “περιορισμούς λόγω κατάστασης”, όπως σε έντονο ηλιακό φως ή σε περιβάλλον όπου δεν μπορούν να ακούσουν ήχο</li>
+  <li>άτομα που χρησιμοποιούν αργή σύνδεση στο Διαδίκτυο ή που έχουν περιορισμένο ή ακριβό εύρος ζώνης (<span lang="en">bandwidth</span>)</li>
+</ul>
+
+<p>Για ένα βίντεο 7 λεπτών με παραδείγματα για το πώς η προσβασιμότητα είναι απαραίτητη για τα άτομα με αναπηρία και χρήσιμη για όλους σε διάφορες καταστάσεις, δείτε:<br />
+<a href="https://www.youtube.com/watch?v=3f31oufqFSM" class="video-link">
+  <img src="/WAI/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" alt="" />
+  <span>Προοπτικές Προσβασιμότητας στον Ιστό <em lang="en">(YouTube)</em></span>
+</a></p>
+
+<aside class="box box-simple box-aside"><header class="box-h  box-h-simple box-h-aside"> <h3> Περισσότερες Πληροφορίες σχετικά με το Τι είναι Προσβασιμότητα </h3></header><div class="box-i">
+
+<ul>
+  <li>Όταν θέλετε να μάθετε περισσότερα για το πώς οι διάφορες αναπηρίες επηρεάζουν τη χρήση του Παγκόσμιου Ιστού και να διαβάσετε σενάρια για άτομα με αναπηρία που χρησιμοποιούν τον Παγκόσμιο Ιστό, ανατρέξτε στην ενότητα <a href="/WAI/people-use-web/" hreflang="en">Πώς τα Άτομα με Αναπηρία Χρησιμοποιούν τον Παγκόσμιο Ιστό (στα Αγγλικά)</a>.</li>
+  <li>Αν θέλετε περισσότερα παραδείγματα πλεονεκτημάτων για άλλους, δείτε τον πολυμεσικό πόρο <a href="/WAI/media/av/users-orgs/#situations" hreflang="en">Χρήση από Άτομα Με και Χωρίς Αναπηρίες (στα Αγγλικά)</a>, τον αρχειοθετημένο πόρο <a href="https://www.w3.org/WAI/business-case/archive/soc#groups">Η προσβασιμότητα στον Παγκόσμιο Ιστό Ωφελεί Άτομα Με και Χωρίς Αναπηρίες</a> και τον αρχειοθετημένο πόρο για κινητά <a href="/WAI/standards-guidelines/shared-experiences/" hreflang="en">Κοινές εμπειρίες στον Παγκόσμιο Ιστό: Εμπόδια Κοινά για τους Χρήστες Κινητών Συσκευών και τα Άτομα με Αναπηρίες (στα Αγγλικά)</a>.</li>
+</ul>
+
+</div></aside>
+
+<h2 id="important">Η Προσβασιμότητα είναι Σημαντική για τα Άτομα, τις Επιχειρήσεις, την Κοινωνία</h2>
+
+<p>Ο Παγκόσμιος Ιστός είναι ένας ολοένα και πιο σημαντικός πόρος σε πολλές πτυχές της ζωής: εκπαίδευση, απασχόληση, κυβέρνηση, εμπόριο, υγειονομική περίθαλψη, ψυχαγωγία και πολλά άλλα. Είναι σημαντικό ο Παγκόσμιος Ιστός να είναι προσβάσιμος, ώστε να παρέχει ίση πρόσβαση και ίσες ευκαιρίες σε άτομα με διαφορετικές ικανότητες. Η πρόσβαση στις τεχνολογίες πληροφοριών και επικοινωνιών, συμπεριλαμβανομένου του Παγκόσμιου Ιστού, ορίζεται ως βασικό ανθρώπινο δικαίωμα στη Σύμβαση των Ηνωμένων Εθνών για τα Δικαιώματα των Ατόμων με Αναπηρία (<span lang="en">UN</span> <a href="https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html"><span lang="en">CRPD</span></a>).</p>
+
+<p>Ο Παγκόσμιος Ιστός προσφέρει τη δυνατότητα πρωτοφανούς πρόσβασης σε πληροφορίες και αλληλεπίδραση για πολλά άτομα με αναπηρία. Δηλαδή, τα εμπόδια προσβασιμότητας στα έντυπα, ακουστικά και οπτικά μέσα μπορούν να ξεπεραστούν πολύ πιο εύκολα μέσω των τεχνολογιών του Ιστού.</p>
+
+<p>Η προσβασιμότητα υποστηρίζει την κοινωνική ένταξη για τα άτομα με αναπηρία, καθώς και για άλλα άτομα, όπως:</p>
+
+<ul>
+  <li>άτομα μεγαλύτερης ηλικίας</li>
+  <li>άτομα σε αγροτικές περιοχές</li>
+  <li>άτομα σε αναπτυσσόμενες χώρες</li>
+</ul>
+
+<p><strong>Υπάρχει επίσης μια ισχυρή επιχειρηματική επιχειρηματολογία για την προσβασιμότητα.</strong> Όπως φαίνεται στην προηγούμενη ενότητα, ο προσβάσιμος σχεδιασμός βελτιώνει τη συνολική εμπειρία και ικανοποίηση των χρηστών, ιδίως σε διάφορες καταστάσεις, σε διαφορετικές συσκευές και για τους χρήστες μεγαλύτερης ηλικίας. Η προσβασιμότητα μπορεί να ενισχύσει τη μάρκα σας, να προωθήσει την καινοτομία και να επεκτείνει την εμβέλειά σας στην αγορά.</p>
+
+<p>Η προσβασιμότητα στον ιστό <strong>απαιτείται από το νόμο</strong> σε πολλές περιπτώσεις.</p>
+
+<aside class="box box-simple box-aside"><header class="box-h  box-h-simple box-h-aside"> <h3> Περισσότερες Πληροφορίες γιατί η Προσβασιμότητα είναι Σημαντική </h3></header><div class="box-i">
+
+<ul>
+  <li>Γενικές πληροφορίες σχετικά με τα επιχειρηματικά οφέλη υπάρχουν στο <a href="/WAI/business-case/" hreflang="en">Η Επιχειρηματική Υπόθεση της Ψηφιακής Προσβασιμότητας (στα Αγγλικά)</a>.
+    <ul>
+      <li>Παραδείγματα των οφελών από <a href="/WAI/media/av/" hreflang="en">την προσβασιμότητα των μέσων ήχου και εικόνας (στα Αγγλικά)</a> υπάρχουν στην ενότητα <a href="/WAI/media/av/users-orgs/#benefits" hreflang="en">Οφέλη για τους Οργανισμούς (στα Αγγλικά)</a>.</li>
+    </ul>
+  </li>
+  <li>Οδηγίες για τον υπολογισμό των νομικών απαιτήσεων υπάρχουν στην αρχειοθετημένη ενότητα <a href="https://www.w3.org/WAI/business-case/archive/pol">Νομικοί και Πολιτικοί Παράγοντες</a>.</li>
+</ul>
+
+</div></aside>
+
+<h2 id="making">Κάνοντας τον Παγκόσμιο Ιστό Προσβάσιμο</h2>
+
+<p>Η προσβασιμότητα στον ιστό εξαρτάται από τη συνεργασία διαφόρων στοιχείων, συμπεριλαμβανομένων των τεχνολογιών ιστού, των προγραμμάτων περιήγησης στον ιστό (<span lang="en">web browsers </span>) και άλλων "<span lang="en">user agents</span>", των εργαλείων σύνταξης και των ιστότοπων.</p>
+
+<p>Το <span lang="en">W3C Web Accessibility Initiative (<a href="/WAI/about/participating/" hreflang="en">WAI (στα Αγγλικά)</a>)</span> αναπτύσσει τεχνικές προδιαγραφές, κατευθυντήριες γραμμές, τεχνικές και υποστηρικτικούς πόρους που περιγράφουν λύσεις προσβασιμότητας.Αυτά θεωρούνται διεθνή πρότυπα για την προσβασιμότητα στον ιστό- για παράδειγμα, το <abbr title="Web Content Accessibility Guidelines (WCAG)">WCAG</abbr> 2.0 είναι επίσης το <abbr title="International Organization for Standardization">ISO</abbr> πρότυπο: ISO/<abbr title="International Electrotechnical Commission">IEC</abbr> 40500.</p>
+
+<aside class="box box-simple box-aside"><header class="box-h  box-h-simple box-h-aside"> <h3> Περισσότερες Πληροφορίες σχετικά με την Προσβασιμότητα στον Παγκόσμιο Ιστό </h3></header><div class="box-i">
+
+<ul>
+  <li>Περισσότερες πληροφορίες σχετικά με τη συνεργασία αυτών των πτυχών της προσβασιμότητας υπάρχουν στο <a href="/WAI/fundamentals/components/" hreflang="en">Βασικά συστατικά της προσβασιμότητας στον Παγκόσμιο Ιστό (στα Αγγλικά)</a>.</li>
+  <li>Οι Οδηγίες Προσβασιμότητας Περιεχομένου Ιστού (WCAG), οι Οδηγίες Προσβασιμότητας Εργαλείων Συγγραφής (ATAG), το ARIA για Προσβάσιμες Πλούσιες Εφαρμογές Διαδικτύου και άλλοι σημαντικοί πόροι παρουσιάζονται στο <a href="/WAI/standards-guidelines/" hreflang="en">Επισκόπηση Προτύπων Προσβασιμότητας του W3C (στα Αγγλικά)</a>.</li>
+  <li>Για να μάθετε περισσότερα σχετικά με το πώς το W3C WAI αναπτύσσει υλικό μέσω της διεθνούς συμμετοχής πολλών ενδιαφερομένων μερών και πώς μπορείτε να συνεισφέρετε, ανατρέξτε στις ενότητες <a href="/WAI/about/" hreflang="en">Σχετικά με το WAI (στα Αγγλικά)</a> and <a href="/WAI/about/participating/" hreflang="en">Συμμετοχή στο WAI (στα Αγγλικά)</a>.</li>
+</ul>
+
+</div></aside>
+
+<h3 id="website">Κάνοντας τον Ιστότοπό σας Προσβάσιμο</h3>
+
+<p>Πολλές πτυχές της προσβασιμότητας είναι αρκετά εύκολο να κατανοηθούν και να εφαρμοστούν. Ορισμένες λύσεις προσβασιμότητας είναι πιο σύνθετες και απαιτούν περισσότερες γνώσεις για την εφαρμογή τους.</p>
+
+<p>Είναι πιο αποδοτικό και αποτελεσματικό να ενσωματώνετε την προσβασιμότητα από την αρχή των έργων, ώστε να μην χρειάζεται να επιστρέψετε και να ξανακάνετε εργασίες.</p>
+
+<aside class="box box-simple box-aside"><header class="box-h  box-h-simple box-h-aside"> <h3> Περισσότερες Πληροφορίες σχετικά με την Προσβασιμότητα του Ιστοτόπου σας </h3></header><div class="box-i">
+
+<ul>
+  <li>Για μια εισαγωγή στις απαιτήσεις προσβασιμότητας και τα διεθνή πρότυπα, ανατρέξτε στην ενότητα: <a href="/WAI/fundamentals/accessibility-principles/" hreflang="en">Αρχές Προσβασιμότητας (στα Αγγλικά)</a>.</li>
+  <li>Για να κατανοήσετε ορισμένα κοινά εμπόδια προσβασιμότητας από την οπτική γωνία του ελέγχου (<span lang="en">testing</span>), δείτε το: <a href="/WAI/test-evaluate/preliminary/" hreflang="en">Εύκολοι Έλεγχοι - Μια Πρώτη Ανασκόπηση (στα Αγγλικά)</a>.</li>
+  <li>Για ορισμένες βασικές εκτιμήσεις σχετικά με το σχεδιασμό, τη συγγραφή και την ανάπτυξη για προσβασιμότητα, δείτε το: <a href="/WAI/tips/" hreflang="en">Συμβουλές για να Ξεκινήσετε (στα Αγγλικά)</a>.</li>
+  <li>Όταν είστε έτοιμοι να μάθετε περισσότερα για την ανάπτυξη και το σχεδιασμό, πιθανόν να χρησιμοποιήσετε πόρους όπως:
+    <ul>
+      <li><a href="https://www.w3.org/WAI/WCAG22/quickref/">Πώς να Ανταποκριθείτε στα WCAG (Γρήγορη Αναφορά)</a></li>
+      <li><a href="/WAI/tutorials/" hreflang="en"><span lang="en">Tutorials</span> για την προσβασιμότητα στον Παγκόσμιο Ιστό (στα Αγγλικά)</a></li>
+    </ul>
+  </li>
+  <li>Για θέματα διαχείρισης έργου και οργάνωσης, ανατρέξτε στην ενότητα <a href="/WAI/planning-and-managing/" hreflang="en">Σχεδιασμός και Διαχείριση της Προσβασιμότητας στον Παγκόσμιο Ιστό (στα Αγγλικά)</a>.<br />
+Εάν πρέπει να κάνετε γρήγορες διορθώσεις τώρα, δείτε το: <a href="/WAI/planning/interim-repairs/" hreflang="en">Προσεγγίσεις για Προσωρινές Επισκευές (στα Αγγλικά)</a>.</li>
+</ul>
+
+</div></aside>
+
+<h2 id="evaluate">Αξιολόγηση της Προσβασιμότητας</h2>
+
+<p>Όταν αναπτύσσετε ή επανασχεδιάζετε έναν ιστότοπο, αξιολογήστε την προσβασιμότητα νωρίς και καθ’ όλη τη διάρκεια της διαδικασίας ανάπτυξης, ώστε να εντοπίζετε τα προβλήματα προσβασιμότητας νωρίς, όταν είναι ευκολότερο να τα αντιμετωπίσετε. Απλά βήματα, όπως η αλλαγή των ρυθμίσεων σε ένα πρόγραμμα περιήγησης, μπορούν να σας βοηθήσουν να αξιολογήσετε ορισμένες πτυχές της προσβασιμότητας. Η ολοκληρωμένη αξιολόγηση για να διαπιστωθεί αν ένας δικτυακός τόπος πληροί όλες τις οδηγίες προσβασιμότητας απαιτεί μεγαλύτερη προσπάθεια.</p>
+
+<p>Υπάρχουν εργαλεία αξιολόγησης που βοηθούν στην αξιολόγηση. Ωστόσο, κανένα εργαλείο από μόνο του δεν μπορεί να καθορίσει αν ένας ιστότοπος πληροί τις οδηγίες προσβασιμότητας. Για να προσδιοριστεί αν ένας δικτυακός τόπος είναι προσβάσιμος, απαιτείται ανθρώπινη αξιολόγηση με γνώση.</p>
+
+<aside class="box box-simple box-aside"><header class="box-h  box-h-simple box-h-aside"> <h3> Περισσότερες Πληροφορίες σχετικά με την Αξιολόγηση της Προσβασιμότητας </h3></header><div class="box-i">
+
+<ul>
+  <li>Οι πόροι που βοηθούν στην αξιολόγηση της προσβασιμότητας περιγράφονται στην ενότητα <a href="/WAI/test-evaluate/" hreflang="en">Αξιολόγηση ιστότοπων για προσβασιμότητα (στα Αγγλικά)</a>.</li>
+</ul>
+
+</div></aside>
+
+<details id="examples"><summary>
+
+    <h2 id="section">Παραδείγματα</h2>
+
+  </summary>
+  <div>
+
+    <h3 id="section-1">Εναλλακτικό Κείμενο για Εικόνες</h3>
+
+    <p><img src="https://www.w3.org/WAI/intro/alt-logo.png" alt="image of logo; HTML markup img alt='Web Accessibility Initiative logo'" class="right" /></p>
+
+    <p>Οι εικόνες θα πρέπει να περιλαμβάνουν <em><a href="https://www.w3.org/WAI/WCAG22/Understanding/text-alternatives">ισοδύναμο εναλλακτικό κείμενο</a></em> (<span lang="en">alt text</span>) στο <span lang="en">markup</span>/κώδικα.</p>
+
+    <p>Εάν δεν παρέχεται εναλλακτικό κείμενο για τις εικόνες, οι πληροφορίες της εικόνας δεν είναι προσβάσιμες, για παράδειγμα, σε άτομα που δεν μπορούν να δουν και χρησιμοποιούν πρόγραμμα ανάγνωσης οθόνης που διαβάζει δυνατά τις πληροφορίες σε μια σελίδα, συμπεριλαμβανομένου του εναλλακτικού κειμένου για την οπτική εικόνα.</p>
+
+    <p>Όταν παρέχεται ισοδύναμο εναλλακτικό κείμενο, οι πληροφορίες είναι διαθέσιμες σε άτομα που είναι τυφλά, καθώς και σε άτομα που απενεργοποιούν τις εικόνες (για παράδειγμα, σε περιοχές με ακριβό ή χαμηλό εύρος ζώνης). Είναι επίσης διαθέσιμες σε τεχνολογίες που δεν μπορούν να δουν εικόνες, όπως οι μηχανές αναζήτησης.</p>
+
+    <h3 id="section-2">Εισαγωγή Δεδομένων μέσω Πληκτρολογίου</h3>
+
+    <p><img src="https://www.w3.org/WAI/intro/no-mouse.png" alt="mouse crossed out" class="left" width="67" height="45" /></p>
+
+    <p>Μερικοί άνθρωποι δεν μπορούν να χρησιμοποιήσουν το ποντίκι (<span lang="en">mouse</span>), συμπεριλαμβανομένων πολλών ηλικιωμένων χρηστών με περιορισμένο έλεγχο της κινητικότητας. Ένας προσβάσιμος δικτυακός τόπος δεν βασίζεται στο ποντίκι- καθιστά <a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard-accessible">όλες τις λειτουργίες διαθέσιμες από το πληκτρολόγιο</a>.  Έτσι, τα άτομα με αναπηρία μπορούν να χρησιμοποιούν <a href="/WAI/planning/involving-users/#at" hreflang="en">υποστηρικτικές τεχνολογίες (στα Αγγλικά)</a> που μιμούνται το πληκτρολόγιο, όπως η εισαγωγή ομιλίας.</p>
+
+    <h3 id="section-3">Απομαγνητοφωνήσεις για τον Ήχο</h3>
+
+    <p><a href="https://www.w3.org/WAI/highlights/200606wcag2interview.html"><img src="https://www.w3.org/WAI/intro/transcript.png" alt="example transcript" class="right" width="251" height="254" /></a></p>
+
+    <p>Όπως οι εικόνες δεν είναι διαθέσιμες σε ανθρώπους που δεν μπορούν να δουν, έτσι και τα αρχεία ήχου δεν είναι διαθέσιμα σε ανθρώπους που δεν μπορούν να ακούσουν. Η παροχή απομαγνητοφωνημένου κειμένου καθιστά τις ηχητικές πληροφορίες προσβάσιμες σε άτομα με κώφωση ή βαρηκοΐα, καθώς και σε μηχανές αναζήτησης και άλλες τεχνολογίες που δεν μπορούν να ακούσουν.</p>
+
+    <p>Είναι εύκολο και σχετικά φθηνό για τους ιστότοπους να παρέχουν απομαγνητοφωνήσεις. Υπάρχουν επίσης υπηρεσίες απομαγνητοφώνησης που δημιουργούν μεταγραφές κειμένου σε μορφή <span lang="en">HTML</span>.</p>
+
+<aside class="box box-simple box-aside"><header class="box-h  box-h-simple box-h-aside"> <h3> Περισσότερα Παραδείγματα </h3></header><div class="box-i">
+
+    <ul>
+      <li><a href="/WAI/tips/" hreflang="en">Συμβουλές για να Ξεκινήσετε (στα Αγγλικά)</a></li>
+      <li><a href="/WAI/test-evaluate/preliminary/" hreflang="en">Εύκολοι Έλεγχοι - Μια Πρώτη Ανασκόπηση (στα Αγγλικά)</a></li>
+      <li><a href="/WAI/perspective-videos/" class="video-link video-link-small video-link-inline">
+  <img src="/WAI/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" alt="" />
+  <span>Προοπτικές Προσβασιμότητας στον Παγκόσμιο Ιστό — βίντεο και περιγραφές</span>
+</a></li>
+    </ul>
+
+</div></aside>
+
+  </div>
+</details>
+
+<h2 id="more-info">Για Περισσότερες Πληροφορίες</h2>
+
+<p>Το <span lang="en">WAI</span> του <span lang="en">W3C</span> παρέχει ένα ευρύ φάσμα πόρων σχετικά με διάφορες πτυχές των <a href="/WAI/standards-guidelines/" hreflang="en">προτύπων (στα Αγγλικά)</a>  προσβασιμότητας στον ιστό, την <a href="/WAI/teach-advocate/" hreflang="en">εκπαίδευση (στα Αγγλικά)</a>, τον <a href="/WAI/test-evaluate/" hreflang="en">έλεγχο/αξιολόγηση (στα Αγγλικά)</a>, τη <a href="/WAI/planning/" hreflang="en">διαχείριση έργων και την πολιτική (στα Αγγλικά)</a>. Σας ενθαρρύνουμε να εξερευνήσετε αυτόν τον ιστότοπο ή να δείτε τον <a href="/WAI/resources/" hreflang="en">κατάλογο πόρων του WAI (στα Αγγλικά)</a> list.</p>
+
+<p><strong><a href="/WAI/courses/foundations-course/" hreflang="en">Θεμέλια Ψηφιακής Προσβασιμότητας - Δωρεάν διαδικτυακό μάθημα (στα Αγγλικά)</a></strong> παρέχει τα θεμέλια που χρειάζεστε για να καταστήσετε την ψηφιακή σας τεχνολογία προσβάσιμη.</p>
+
+
+    <aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Βοήθεια για τη βελτίωση αυτού του ιστότοπου </h2></header><div class="box-i"><p>Παρακαλούμε, μοιραστείτε τις ιδέες, προτάσεις ή τα σχόλιά σας μέσω ηλεκτρονικού ταχυδρομείου στη δημόσια λίστα <a href="mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5B%CF%83%CF%87%CE%BF%CE%BB%CE%B9%CE%AC%CF%83%CF%84%CE%B5%20%CE%B5%CE%B4%CF%8E...%5D%0A%0AI%20%CE%B4%CF%8E%CF%83%CF%84%CE%B5%20%CE%AC%CE%B4%CE%B5%CE%B9%CE%B1%2C%20%CE%B3%CE%B9%CE%B1%20%CE%BD%CE%B1%20%CE%BC%CE%BF%CE%B9%CF%81%CE%B1%CF%83%CF%84%CE%B5%CE%AF%20%CE%B1%CF%85%CF%84%CF%8C%20%CF%83%CE%B5%20%CE%BC%CE%B9%CE%B1%20%CE%B4%CE%B7%CE%BC%CF%8C%CF%83%CE%B9%CE%B1%20%CE%BB%CE%AF%CF%83%CF%84%CE%B1%20%CE%B7%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%BF%CF%8D%20%CF%84%CE%B1%CF%87%CF%85%CE%B4%CF%81%CE%BF%CE%BC%CE%B5%CE%AF%CE%BF%CF%85.">wai@w3.org</a> ή μέσω του Github.</p>
+<div class="button-group">
+    <a href="mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5B%CF%83%CF%87%CE%BF%CE%BB%CE%B9%CE%AC%CF%83%CF%84%CE%B5%20%CE%B5%CE%B4%CF%8E...%5D%0A%0AI%20%CE%B4%CF%8E%CF%83%CF%84%CE%B5%20%CE%AC%CE%B4%CE%B5%CE%B9%CE%B1%2C%20%CE%B3%CE%B9%CE%B1%20%CE%BD%CE%B1%20%CE%BC%CE%BF%CE%B9%CF%81%CE%B1%CF%83%CF%84%CE%B5%CE%AF%20%CE%B1%CF%85%CF%84%CF%8C%20%CF%83%CE%B5%20%CE%BC%CE%B9%CE%B1%20%CE%B4%CE%B7%CE%BC%CF%8C%CF%83%CE%B9%CE%B1%20%CE%BB%CE%AF%CF%83%CF%84%CE%B1%20%CE%B7%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%BF%CF%8D%20%CF%84%CE%B1%CF%87%CF%85%CE%B4%CF%81%CE%BF%CE%BC%CE%B5%CE%AF%CE%BF%CF%85." class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/wai-website/edit/main/pages/fundamentals/introduction/index.el.md
+" class="button"><span>Fork και Επεξεργασία στο Github</span></a><a href="https://github.com/w3c/wai-website/issues/new?template=content-issue.yml&title=[el]%20&wai-resource-id=wai-accessibility-intro&wai-url=https://www.w3.org/WAI/fundamentals/accessibility-intro/el" class="button"><span>Νέο θέμα GitHub</span></a></div></div></aside>
+
+
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Επιστροφή στην Κορυφή</span></a>
+  </main>
+</div>
+
+
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"><p><strong>Η αγγλική έκδοση ενημερώθηκε</strong> 2024-03-07.
+          <a href="/WAI/fundamentals/accessibility-intro/changelog/">καταγραφή αλλαγών</a>.
+          (<span lang="en">Translated:</span> 2025-04-16).<br />
+          <span lang="en">First published</span> February 2005.</p><p><strong>Συντάκτης:</strong> <a href="https://www.w3.org/People/Shawn/" lang="en">Shawn Lawton Henry</a>.</p> <p>Αναπτύχθηκε από την Ομάδα Εργασίας Εκπαίδευσης και Ενημέρωσης (<a href="https://www.w3.org/WAI/EO/" lang="en">EOWG</a>).</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Στρατηγικές, πρότυπα και υποστηρικτικό υλικό για να γίνει ο Παγκόσμιος Ιστός προσβάσιμος σε άτομα με ειδικές ανάγκες.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/sponsoring/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1745483693766044898"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1745483693766044898"></script>
+<script>
+  svg4everybody();
+</script>
+<script src="/WAI/assets/scripts/lang/el.js?1745483693766044898"></script>
+
+  </body>
+</html>
