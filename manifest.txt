@@ -778,6 +778,7 @@
 /content-assets/wcag-act-rules/earl/total-validator-browser.json
 /content-assets/wcag-act-rules/earl/total-validator.json
 /content-assets/wcag-act-rules/earl/trusted-tester.json
+/content-assets/wcag-act-rules/earl/webmate-accessibility-workbench.json
 /content-assets/wcag-act-rules/impl-large-scope.svg
 /content-assets/wcag-act-rules/impl-small-scope.svg
 /content-assets/wcag-act-rules/test-assets/0va7u6/bigA.png
@@ -1261,6 +1262,7 @@
 /content-assets/wcag-act-rules/testcases/5effbb/e64416f9e9792cd76b77ee209a26269d47c3ff97.html
 /content-assets/wcag-act-rules/testcases/5effbb/e6a7c924092d2351c3a5b4361ccde7917ad23c66.html
 /content-assets/wcag-act-rules/testcases/5f99a7/261dcd3214e87532fc2f9c8db7fdce05de9e07f0.html
+/content-assets/wcag-act-rules/testcases/5f99a7/287a72860814f903d561dc3e7765f507ca041624.html
 /content-assets/wcag-act-rules/testcases/5f99a7/31ac49fcb186ee2a233355494fc5e774212ca3d7.html
 /content-assets/wcag-act-rules/testcases/5f99a7/3314945d4bbec5b34f9a3c2d90da7cb9f8e7ce5a.html
 /content-assets/wcag-act-rules/testcases/5f99a7/4373f9e70eb353c76d7e9d4c2cc4dcfd6c17ad70.html
@@ -1548,6 +1550,7 @@
 /content-assets/wcag-act-rules/testcases/a25f45/7f2be26b42fa5846a09019bb949c44be95586e0d.html
 /content-assets/wcag-act-rules/testcases/a25f45/8391fee07d35c11cfb3fecd19ddaad0fb8c68871.html
 /content-assets/wcag-act-rules/testcases/a25f45/9f7979f4854efa0b1ac299f920229d20246710b9.html
+/content-assets/wcag-act-rules/testcases/a25f45/add6f67d15c10ce6195ff5488ae7f5dab8bc3632.html
 /content-assets/wcag-act-rules/testcases/a25f45/b1b17ab86ee2ebce350af1c41d2e6ff8911a33f1.html
 /content-assets/wcag-act-rules/testcases/a25f45/ba5019010a6e0cfbcb46b2f7e9e63a6117e06f97.html
 /content-assets/wcag-act-rules/testcases/a25f45/c02748c85d58e188b3c13773986272df616b2f3c.html
@@ -3387,6 +3390,7 @@
 /standards-guidelines/act/implementations/total-validator-browser/index.html
 /standards-guidelines/act/implementations/total-validator/index.html
 /standards-guidelines/act/implementations/trusted-tester/index.html
+/standards-guidelines/act/implementations/webmate-accessibility-workbench/index.html
 /standards-guidelines/act/index.html
 /standards-guidelines/act/report/earl/index.html
 /standards-guidelines/act/report/mapping/index.html

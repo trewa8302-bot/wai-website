@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1745499520888150330";
+      element.src = "/WAI/assets/scripts/main.js?1745944787249209985";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1745499520888150330">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1745944787249209985">
 
-<title> Image has non-empty accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1745499520888150330"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> Image has non-empty accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1745944787249209985"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Image has non-empty accessible name" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -346,7 +346,6 @@ h2#sidebar-header {
 <h3 id="accessibility-support">Accessibility Support</h3>
 
 <ul>
-  <li>There are several popular browsers that do not treat images with an empty <code class="language-plaintext highlighter-rouge">alt</code> attribute (<code class="language-plaintext highlighter-rouge">alt=""</code>) as having a role of <code class="language-plaintext highlighter-rouge">presentation</code> but instead add the <code class="language-plaintext highlighter-rouge">img</code> element to the accessibility tree with a <a href="#semantic-role" title="Definition of semantic role">semantic role</a> of either <code class="language-plaintext highlighter-rouge">img</code> or <code class="language-plaintext highlighter-rouge">graphic</code>.</li>
   <li>Implementation of <a href="https://www.w3.org/TR/wai-aria-1.2/#conflict_resolution_presentation_none" title="Presentational Roles Conflict Resolution">Presentational Roles Conflict Resolution</a> varies from one browser or assistive technology to another. Depending on this, some <a href="#semantic-role" title="Definition of semantic role">semantic</a> <code class="language-plaintext highlighter-rouge">img</code> elements can fail this rule with some technology but users of other technologies would not experience any accessibility issue.</li>
   <li>Images can have their role set to <code class="language-plaintext highlighter-rouge">presentation</code> through an empty <code class="language-plaintext highlighter-rouge">alt</code> attribute. <a href="https://www.w3.org/TR/wai-aria-1.2/#conflict_resolution_presentation_none" title="Presentational Roles Conflict Resolution">Presentational Roles Conflict Resolution</a> does not specify what to do if such an image is <a href="#focusable" title="Definition of focusable">focusable</a> (it only specifies what to do in case of explicit <code class="language-plaintext highlighter-rouge">role="none"</code> or <code class="language-plaintext highlighter-rouge">role="presentation"</code>). Some browsers expose these images and some don’t. Thus, this rule may fail for technologies that expose these without creating an accessibility issue for users of other technologies.</li>
   <li><code class="language-plaintext highlighter-rouge">svg</code> elements have an <a href="#implicit-role" title="Definition of implicit role">implicit role</a> of <code class="language-plaintext highlighter-rouge">graphics-document</code> in <a href="https://www.w3.org/TR/svg-aam-1.0/#details-id-66">svg-aam</a>. There are popular browsers that do not follow <a href="https://www.w3.org/TR/svg-aam-1.0/#details-id-66">svg-aam</a> and instead expose SVG elements with a different <a href="#semantic-role" title="Definition of semantic role">semantic role</a>, such as <code class="language-plaintext highlighter-rouge">image</code>, <code class="language-plaintext highlighter-rouge">generic</code> or <code class="language-plaintext highlighter-rouge">SvgRoot</code>.</li>
@@ -769,14 +768,14 @@ h2#sidebar-header {
       </thead>
       <tbody>
           <tr>
-            <td>Alfa (fully automated) 0.103.0</td>
+            <td>Alfa (fully automated) 0.103.1</td>
             <td>Automated tool</td>
             <td>
               Consistent </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-23a2a8"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
-            <td>Alfa (semi-automated) 0.103.0</td>
+            <td>Alfa (semi-automated) 0.103.1</td>
             <td>Semi-automated tool</td>
             <td>
               Consistent </td>
@@ -831,6 +830,13 @@ h2#sidebar-header {
               Consistent </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/total-validator-browser#breakdown-23a2a8"><img alt="Total Validator (+Browser) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
+          <tr>
+            <td>Webmate Accessibility Workbench </td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/webmate-accessibility-workbench#breakdown-23a2a8"><img alt="Webmate Accessibility Workbench Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
       </tbody>
     </table>
   </div>
@@ -865,7 +871,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 23a2a8</p>
-<p><strong>Date:</strong> Updated 17 March 2025</p>
+<p><strong>Date:</strong> Updated 22 April 2025</p>
 <p><strong>Authors:</strong> <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Previous Authors: <a href="https://github.com/annethyme">Anne Thyme Nørregaard</a>, <a href="https://github.com/skotkjerra">Stein Erik Skotkjerra</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 </div>
@@ -901,9 +907,9 @@ h2#sidebar-header {
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1745499520888150330"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1745944787249209985"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1745499520888150330"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1745944787249209985"></script>
 <script>
   svg4everybody();
 </script><script>
