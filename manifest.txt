@@ -3586,6 +3586,7 @@
 /standards-guidelines/mobile/ko.html
 /standards-guidelines/mobile/ru.html
 /standards-guidelines/mobile/zh-hans.html
+/standards-guidelines/pl.html
 /standards-guidelines/ru.html
 /standards-guidelines/shared-experiences/index.html
 /standards-guidelines/uaag/index.html
