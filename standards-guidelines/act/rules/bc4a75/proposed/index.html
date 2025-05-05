@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1746441429153866995";
+      element.src = "/WAI/assets/scripts/main.js?1746467724883888479";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1746441429153866995">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1746467724883888479">
 
-<title> ARIA required owned elements[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1746441429153866995"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> ARIA required owned elements[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1746467724883888479"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="ARIA required owned elements" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -413,11 +413,11 @@ h2#sidebar-header {
 
 <h4 id="passed-example-2">Passed Example 2</h4>
 
-<p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/bc4a75/854ec3db8780fe5be957fc1c29f279a3e5fc7969.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/bc4a75/e83381f51c9fa832439c3a98e9d23c307db365a5.html">Open in a new tab</a></p>
 
 <p>This element with the <code class="language-plaintext highlighter-rouge">grid</code> role only owns elements with the <code class="language-plaintext highlighter-rouge">row</code> role, and the element with the <code class="language-plaintext highlighter-rouge">row</code> role only owns elements with the <code class="language-plaintext highlighter-rouge">gridcell</code> role. The <code class="language-plaintext highlighter-rouge">row</code> role is one of the <a href="https://www.w3.org/TR/wai-aria-1.2/#mustContain" title="Define Required owned element">required owned elements</a> for <code class="language-plaintext highlighter-rouge">grid</code>, and <code class="language-plaintext highlighter-rouge">gridcell</code> is one of the <a href="https://www.w3.org/TR/wai-aria-1.2/#mustContain" title="Define Required owned element">required owned elements</a> for <code class="language-plaintext highlighter-rouge">row</code>.</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span> <span class="na">role=</span><span class="s">"grid"</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span> <span class="na">role=</span><span class="s">"grid"</span> <span class="na">aria-label=</span><span class="s">"grid name"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;tr</span> <span class="na">role=</span><span class="s">"row"</span><span class="nt">&gt;</span>
 		<span class="nt">&lt;td</span> <span class="na">role=</span><span class="s">"gridcell"</span><span class="nt">&gt;</span>Item 1<span class="nt">&lt;/td&gt;</span>
 	<span class="nt">&lt;/tr&gt;</span>
@@ -597,11 +597,11 @@ h2#sidebar-header {
 
 <h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
 
-<p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/bc4a75/a700af25effa2ba2bfad2429705e634fcd0142d6.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/bc4a75/a05da944dee221701e4190cdff8318c015932ff2.html">Open in a new tab</a></p>
 
 <p>This element with the <code class="language-plaintext highlighter-rouge">progressbar</code> role does not need <a href="https://www.w3.org/TR/wai-aria-1.2/#mustContain" title="Define Required owned element">required owned elements</a>.</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"progressbar"</span> <span class="na">aria-valuenow=</span><span class="s">"20"</span> <span class="na">aria-valuemin=</span><span class="s">"0"</span> <span class="na">aria-valuemax=</span><span class="s">"100"</span><span class="nt">&gt;</span>20 %<span class="nt">&lt;/div&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"progressbar"</span> <span class="na">aria-valuenow=</span><span class="s">"20"</span> <span class="na">aria-valuemin=</span><span class="s">"0"</span> <span class="na">aria-valuemax=</span><span class="s">"100"</span> <span class="na">aria-label=</span><span class="s">"Completion"</span><span class="nt">&gt;</span>20 %<span class="nt">&lt;/div&gt;</span>
 </code></pre></div></div>
 
 <h4 id="inapplicable-example-4">Inapplicable Example 4</h4>
@@ -809,15 +809,15 @@ h2#sidebar-header {
           <tr>
             <td>QualWeb 3.0.0</td>
             <td>Automated tool</td>
-            <td>
-              Consistent </td>
+            <td> Partial
+            </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-bc4a75"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
             <td>SortSite 6.55</td>
             <td>Automated tool</td>
-            <td>
-              Consistent </td>
+            <td> Partial
+            </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/sortsite#breakdown-bc4a75"><img alt="SortSite Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
@@ -837,8 +837,8 @@ h2#sidebar-header {
           <tr>
             <td>Webmate Accessibility Workbench </td>
             <td>Automated tool</td>
-            <td>
-              Consistent </td>
+            <td> Partial
+            </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/webmate-accessibility-workbench#breakdown-bc4a75"><img alt="Webmate Accessibility Workbench Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
       </tbody>
@@ -875,7 +875,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> bc4a75</p>
-<p><strong>Date:</strong> Updated 10 April 2025</p>
+<p><strong>Date:</strong> Updated 1 May 2025</p>
 <p><strong>Authors:</strong> <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Previous Authors: <a href="https://github.com/audreymaniez">Audrey Maniez</a>, <a href="https://github.com/jkodu">Jey Nandakumar</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 </div>
@@ -911,9 +911,9 @@ h2#sidebar-header {
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1746441429153866995"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1746467724883888479"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1746441429153866995"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1746467724883888479"></script>
 <script>
   svg4everybody();
 </script><script>

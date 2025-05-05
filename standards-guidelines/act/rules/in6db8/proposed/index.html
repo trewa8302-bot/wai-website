@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1746441429153866995";
+      element.src = "/WAI/assets/scripts/main.js?1746467724883888479";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1746441429153866995">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1746467724883888479">
 
-<title> ARIA required ID references exist[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1746441429153866995"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> ARIA required ID references exist[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1746467724883888479"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="ARIA required ID references exist" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -422,11 +422,11 @@ not tested by the rule:</p>
 
 <h4 id="passed-example-2">Passed Example 2</h4>
 
-<p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/in6db8/46d50c448266ba7f8434e92300d4c024537c055b.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/in6db8/2f505db707edd40237682c62199bf47c27678e07.html">Open in a new tab</a></p>
 
 <p>The <code class="language-plaintext highlighter-rouge">aria-controls</code> <a href="#attribute-value" title="Definition of Attribute Value">attribute value</a> of this expanded <code class="language-plaintext highlighter-rouge">combobox</code> matches the <code class="language-plaintext highlighter-rouge">id</code> of the <code class="language-plaintext highlighter-rouge">ul</code> element in the same document.</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"tag_combo"</span><span class="nt">&gt;</span>Tag<span class="nt">&lt;/label&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"tag_combo"</span> <span class="na">id=</span><span class="s">"tag_label"</span><span class="nt">&gt;</span>Tag<span class="nt">&lt;/label&gt;</span>
 <span class="nt">&lt;input</span>
 	<span class="na">type=</span><span class="s">"text"</span>
 	<span class="na">id=</span><span class="s">"tag_combo"</span>
@@ -435,7 +435,7 @@ not tested by the rule:</p>
 	<span class="na">aria-controls=</span><span class="s">"popup_listbox"</span>
 	<span class="na">aria-activedescendant=</span><span class="s">"selected_option"</span>
 <span class="nt">/&gt;</span>
-<span class="nt">&lt;ul</span> <span class="na">role=</span><span class="s">"listbox"</span> <span class="na">id=</span><span class="s">"popup_listbox"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;ul</span> <span class="na">role=</span><span class="s">"listbox"</span> <span class="na">id=</span><span class="s">"popup_listbox"</span> <span class="na">aria-labelledby=</span><span class="s">"tag_label"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"option"</span><span class="nt">&gt;</span>Zebra<span class="nt">&lt;/li&gt;</span>
 	<span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"option"</span> <span class="na">id=</span><span class="s">"selected_option"</span><span class="nt">&gt;</span>Zoom<span class="nt">&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span>
@@ -701,29 +701,29 @@ not tested by the rule:</p>
           <tr>
             <td>Alfa (fully automated) 0.103.1</td>
             <td>Automated tool</td>
-            <td>
-              Consistent </td>
+            <td> Partial
+            </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-in6db8"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
             <td>Alfa (semi-automated) 0.103.1</td>
             <td>Semi-automated tool</td>
-            <td>
-              Consistent </td>
+            <td> Partial
+            </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/alfa-assisted#breakdown-in6db8"><img alt="Alfa (semi-automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
             <td>QualWeb 3.0.0</td>
             <td>Automated tool</td>
-            <td>
-              Consistent </td>
+            <td> Partial
+            </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-in6db8"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
             <td>SortSite 6.55</td>
             <td>Automated tool</td>
-            <td>
-              Consistent </td>
+            <td> Partial
+            </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/sortsite#breakdown-in6db8"><img alt="SortSite Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
@@ -743,8 +743,8 @@ not tested by the rule:</p>
           <tr>
             <td>Webmate Accessibility Workbench </td>
             <td>Automated tool</td>
-            <td>
-              Consistent </td>
+            <td> Partial
+            </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/webmate-accessibility-workbench#breakdown-in6db8"><img alt="Webmate Accessibility Workbench Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
       </tbody>
@@ -781,7 +781,7 @@ not tested by the rule:</p>
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> in6db8</p>
-<p><strong>Date:</strong> Updated 2 December 2024</p>
+<p><strong>Date:</strong> Updated 1 May 2025</p>
 <p><strong>Authors:</strong> <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 </div>
@@ -817,9 +817,9 @@ not tested by the rule:</p>
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1746441429153866995"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1746467724883888479"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1746441429153866995"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1746467724883888479"></script>
 <script>
   svg4everybody();
 </script><script>
