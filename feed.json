@@ -13,6 +13,48 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2025-05-06/wcag2mobile/",
+            "title": "For Review: Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile) — First Draft Note",
+            "summary": null,
+            "content_text": "Guidance on Applying WCAG 2.2 to Mobile Applications is available as a first Draft Note. WCAG2Mobile describes how Web Content Accessibility Guidelines (WCAG) 2.2 principles, guidelines, and success criteria can be applied to mobile applications, including native mobile apps, mobile web apps, and hybrid apps using web components inside native mobile apps. We welcome your comments on the direction and approach of this in-progress resource. To comment via email or GitHub, see links in the ‘Status of This Document’ section.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/wcag2mobile-22/\">Guidance on Applying WCAG 2.2 to Mobile Applications</a> is available as a first Draft Note. WCAG2Mobile describes how Web Content Accessibility Guidelines (WCAG) 2.2 principles, guidelines, and success criteria can be applied to mobile applications, including native mobile apps, mobile web apps, and hybrid apps using web components inside native mobile apps. We welcome your comments on the direction and approach of this in-progress resource. To comment via email or GitHub, see links in the <a href=\"https://www.w3.org/TR/wcag2mobile-22/#sotd\">‘Status of This Document’ section</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2025-05-06/wcag2mobile/",
+            
+            
+            
+            
+            
+            "date_published": "2025-05-06T00:00:00+00:00",
+            "date_modified": "2025-05-06T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
+            "id": "https://www.w3.org/WAI/news/2025-05-06/wcag-21/",
+            "title": "WCAG 2.1 published with minor technical fixes",
+            "summary": null,
+            "content_text": "W3C published an update that addresses minor technical issues in the December 2024 publication of WCAG 2.1. The 6 May 2025 publication is Web Content Accessibility Guidelines (WCAG) 2.1.The changes are listed in the Change Log section of WCAG 2.1.",
+            "content_html": "<p>W3C published an update that addresses minor technical issues in the December 2024 publication of WCAG 2.1. The 6 May 2025 publication is <a href=\"https://www.w3.org/TR/2025/REC-WCAG21-20250506/\">Web Content Accessibility Guidelines (WCAG) 2.1</a>.</p><p>The changes are listed in the <a href=\"https://www.w3.org/TR/WCAG21/#changelog\">Change Log section of WCAG 2.1</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2025-05-06/wcag-21/",
+            
+            
+            
+            
+            
+            "date_published": "2025-05-06T00:00:00+00:00",
+            "date_modified": "2025-05-06T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2025-03-27/wcag-22-brazilian-portuguese/",
             "title": "WCAG 2.2 in Brazilian Portuguese – Authorized Translation Published",
             "summary": null,
@@ -719,48 +761,6 @@
             
             "date_published": "2023-02-13T00:00:00+00:00",
             "date_modified": "2023-02-13T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-01-25/wcag-22-cr2/",
-            "title": "Updated: WCAG 2.2 Candidate Recommendation Draft",
-            "summary": null,
-            "content_text": "WCAG 2.2 ‘Candidate Recommendation’ draft is updated. A list of changes, status, and expected publication date is kept up-to-date in What’s New in WCAG 2.2 Draft. Please submit any comments by 17 February 2023.",
-            "content_html": "<p><a href=\"https://www.w3.org/TR/WCAG22\">WCAG 2.2</a> ‘Candidate Recommendation’ draft is updated. A list of changes, status, and expected publication date is kept up-to-date in <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/\">What’s New in WCAG 2.2 Draft</a>. Please submit any comments by <strong>17 February 2023</strong>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-01-25/wcag-22-cr2/",
-            
-            
-            
-            
-            
-            "date_published": "2023-01-25T00:00:00+00:00",
-            "date_modified": "2023-01-25T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-01-05/wai-adapt-symbols/",
-            "title": "Call for Implementations: WAI-Adapt: Symbols Module Candidate Recommendation",
-            "summary": null,
-            "content_text": "WAI-Adapt: Symbols Module is a technical specification that enables symbols to replace text in web content. It's now a W3C 'Candidate Recommendation'. That means we're seeking example implementations. To learn more, start with the e-mail announcement and the WAI-Adapt Overview.",
-            "content_html": "<p>WAI-Adapt: Symbols Module is a technical specification that enables symbols to replace text in web content. It's now a W3C 'Candidate Recommendation'. That means we're seeking example implementations. To learn more, start with the <a href=\"https://lists.w3.org/Archives/Public/public-wai-announce/2023JanMar/0000.html\">e-mail announcement</a> and the <a href=\"https://w3.org/WAI/adapt/\">WAI-Adapt Overview</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-01-05/wai-adapt-symbols/",
-            
-            
-            
-            
-            
-            "date_published": "2023-01-05T00:00:00+00:00",
-            "date_modified": "2023-01-05T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
