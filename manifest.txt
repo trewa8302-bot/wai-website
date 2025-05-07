@@ -366,6 +366,7 @@
 /about/translating/wcag/index.html
 /about/translating/wcag/update/index.html
 /about/translating/wcag/update/wcag21-20180605/index.html
+/about/translating/wcag/update/wcag21-20230921/index.html
 /about/translating/wcag/update/wcag22-20231005/index.html
 /about/translating/wcag/wcag21-update/index.html
 /about/using-wai-material/index.html
