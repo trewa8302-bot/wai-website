@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1747140184726415258";
+      element.src = "/WAI/assets/scripts/main.js?1747149187265928471";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1747140184726415258">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1747149187265928471">
 
-<title> Button has non-empty accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1747140184726415258"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> Button has non-empty accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1747149187265928471"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Button has non-empty accessible name" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -344,18 +344,18 @@ h2#sidebar-header {
 <h3 id="assumptions">Assumptions</h3>
 
 <ul>
-  <li>The rule assumes that all buttons are <a href="https://www.w3.org/TR/WCAG22/#dfn-user-interface-components">user interface components as defined by WCAG 2</a>.</li>
+  <li>
+    <p>The rule assumes that all buttons are <a href="https://www.w3.org/TR/WCAG22/#dfn-user-interface-components">user interface components as defined by WCAG 2</a>.</p>
+  </li>
+  <li>
+    <p>Some elements have a role of <code class="language-plaintext highlighter-rouge">button</code> and a default accessible name defined by the <a href="https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset-accessible-name-computation" title="HTML Accessibility API Mapping, input button, input, and reset accessible name">HTML Accessibility API Mapping</a>, for example <code class="language-plaintext highlighter-rouge">input</code> elements whose <code class="language-plaintext highlighter-rouge">type</code> <a href="#attribute-value" title="Definition of Attribute Value">attribute value</a> is either <code class="language-plaintext highlighter-rouge">submit</code> or <code class="language-plaintext highlighter-rouge">reset</code>. This rule considers that these default names can be descriptive and therefore does not fail them.</p>
+  </li>
 </ul>
 
 <h3 id="accessibility-support">Accessibility Support</h3>
 
 <ul>
-  <li>
-    <p>Implementation of <a href="https://www.w3.org/TR/wai-aria-1.2/#conflict_resolution_presentation_none" title="Presentational Roles Conflict Resolution">Presentational Roles Conflict Resolution</a> varies from one browser or assistive technology to another. Depending on this, some elements can have a <a href="#semantic-role" title="Definition of Semantic Role">semantic role</a> of <code class="language-plaintext highlighter-rouge">button</code> and fail this rule with some technology but users of other technologies would not experience any accessibility issue.</p>
-  </li>
-  <li>
-    <p>Some elements have a role of <code class="language-plaintext highlighter-rouge">button</code> and a default accessible name defined by the <a href="https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset" title="HTML Accessibility API Mapping, reset and submit buttons">HTML Accessibility API Mapping</a>, for example <code class="language-plaintext highlighter-rouge">input</code> elements whose <code class="language-plaintext highlighter-rouge">type</code> <a href="#attribute-value" title="Definition of Attribute Value">attribute value</a> is either <code class="language-plaintext highlighter-rouge">submit</code> or <code class="language-plaintext highlighter-rouge">reset</code>. This rule considers that these default names can be descriptive and therefore does not fail them.</p>
-  </li>
+  <li>Implementation of <a href="https://www.w3.org/TR/wai-aria-1.2/#conflict_resolution_presentation_none" title="Presentational Roles Conflict Resolution">Presentational Roles Conflict Resolution</a> varies from one browser or assistive technology to another. Depending on this, some elements can have a <a href="#semantic-role" title="Definition of Semantic Role">semantic role</a> of <code class="language-plaintext highlighter-rouge">button</code> and fail this rule with some technology but users of other technologies would not experience any accessibility issue.</li>
 </ul>
 
 <h3 id="related-rules">Related rules</h3>
@@ -870,7 +870,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 97a4e1</p>
-<p><strong>Date:</strong> Updated 2 December 2024</p>
+<p><strong>Date:</strong> Updated 8 May 2025</p>
 <p><strong>Authors:</strong> <a href="https://github.com/skotkjerra">Stein Erik Skotkjerra</a>, <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 </div>
@@ -906,9 +906,9 @@ h2#sidebar-header {
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1747140184726415258"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1747149187265928471"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1747140184726415258"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1747149187265928471"></script>
 <script>
   svg4everybody();
 </script><script>
