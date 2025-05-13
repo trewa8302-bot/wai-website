@@ -3367,7 +3367,6 @@
 /policies/russia/index.html
 /policies/slovenia/index.html
 /policies/spain/index.html
-/policies/submission.php
 /policies/submission/index.html
 /policies/sweden/index.html
 /policies/switzerland/index.html
