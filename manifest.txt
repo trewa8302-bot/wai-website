@@ -319,6 +319,7 @@
 /about/projects/wai-coop/symposium3/index.html
 /about/projects/wai-core-2015/index.html
 /about/projects/wai-core-ford/index.html
+/about/projects/wai-core-us/index.html
 /about/projects/wai-guide/index.html
 /about/projects/wai-tools/final-open-meeting/index.html
 /about/projects/wai-tools/first-open-meeting/index.html
@@ -2029,6 +2030,7 @@
 /content-assets/wcag-act-rules/testcases/e7aa44/fae177d6e342bce9e0b7ea3dad353d4253bd4e67.html
 /content-assets/wcag-act-rules/testcases/e88epe/0d0061ffdf406f0d9b21aaa00f5d557e4137e0b2.html
 /content-assets/wcag-act-rules/testcases/e88epe/2a5ee04e97e798e6e08c3afb92f3b44d49ac13fa.html
+/content-assets/wcag-act-rules/testcases/e88epe/395965215132ccf7f66c0c464c12bd48f416b1ca.html
 /content-assets/wcag-act-rules/testcases/e88epe/410778b7d0c30044bfafed29789220f4b7ca98f1.html
 /content-assets/wcag-act-rules/testcases/e88epe/41452bcdbcb440d3f741c74fcc885a93c68d63ce.html
 /content-assets/wcag-act-rules/testcases/e88epe/57982b4d5dad90f3f2c06d5e0233694c46842bd0.html
@@ -2043,6 +2045,7 @@
 /content-assets/wcag-act-rules/testcases/e88epe/921e2bffbdced6b00801da02f7dc674b9ee6203c.html
 /content-assets/wcag-act-rules/testcases/e88epe/92935fbf073935292967951af70c2e699357fac2.html
 /content-assets/wcag-act-rules/testcases/e88epe/9554e68de401c2912fd4895b6c062cd5ec2734b2.html
+/content-assets/wcag-act-rules/testcases/e88epe/9f5f3718830124266a4866dc42f539a5a03e37e5.html
 /content-assets/wcag-act-rules/testcases/e88epe/9ff50232e74195770418bcfb23c1508dfcef639a.html
 /content-assets/wcag-act-rules/testcases/e88epe/a09270ba161c0259b258844551e94c40cdd6b52e.html
 /content-assets/wcag-act-rules/testcases/e88epe/e5b8fa7ab66409e7b52b335a8b6aebe11fd78635.html

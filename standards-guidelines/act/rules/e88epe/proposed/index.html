@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1748905362151419511";
+      element.src = "/WAI/assets/scripts/main.js?1749497906652772420";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1748905362151419511">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1749497906652772420">
 
-<title> Image not in the accessibility tree is decorative[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1748905362151419511"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> Image not in the accessibility tree is decorative[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1749497906652772420"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Image not in the accessibility tree is decorative" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -369,7 +369,9 @@ h2#sidebar-header {
 
 <h3 id="accessibility-support">Accessibility Support</h3>
 
-<p>There are no accessibility support issues known.</p>
+<p>According to the <a href="https://www.w3.org/TR/graphics-aria-1.0/">WAI-ARIA Graphics Module</a> specification, the <code class="language-plaintext highlighter-rouge">role="graphics-document"</code> requires an accessible name. Additionally, the <a href="https://www.w3.org/TR/svg-aam-1.0/">SVG Accessibility API Mappings</a> set the default ARIA role for SVG elements to <code class="language-plaintext highlighter-rouge">graphics-document</code>, and <a href="https://www.w3.org/TR/html-aria/">ARIA in HTML</a> maps the <code class="language-plaintext highlighter-rouge">&lt;svg&gt;</code> element to the same role.</p>
+
+<p>However, browser implementations vary. Some browsers expose <code class="language-plaintext highlighter-rouge">&lt;svg&gt;</code> elements without accessible names as images without alternative text. To address this, in the passed and inapplicable examples where the <code class="language-plaintext highlighter-rouge">&lt;svg&gt;</code> element is intended to be purely decorative, the <code class="language-plaintext highlighter-rouge">role="none"</code> attribute has been added.</p>
 
 <h3 id="bibliography">Bibliography</h3>
 
@@ -441,12 +443,12 @@ h2#sidebar-header {
 
 <h4 id="passed-example-4">Passed Example 4</h4>
 
-<p><a class="example-link" title="Passed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/736b18e695a44e19b8acc1a858262b4b9309c2fc.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Passed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/395965215132ccf7f66c0c464c12bd48f416b1ca.html">Open in a new tab</a></p>
 
-<p>This <code class="language-plaintext highlighter-rouge">svg</code> element that is ignored by assistive technologies because it has no attribute that would give it an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> is <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure decoration">purely decorative</a>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">svg</code> element that is ignored by assistive technologies because it has no attribute that would give it an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> is <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure decoration">purely decorative</a>. Because some browsers expose the <code class="language-plaintext highlighter-rouge">svg</code> element with the <code class="language-plaintext highlighter-rouge">image</code> role, the <code class="language-plaintext highlighter-rouge">role="none"</code> attribute has been added to guarantee its presentational role.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>Happy new year!<span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;svg</span> <span class="na">height=</span><span class="s">"200"</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;svg</span> <span class="na">height=</span><span class="s">"200"</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">role=</span><span class="s">"none"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">"100,10 40,180 190,60 10,60 160,180"</span> <span class="na">fill=</span><span class="s">"yellow"</span> <span class="nt">/&gt;</span>
 <span class="nt">&lt;/svg&gt;</span>
 </code></pre></div></div>
@@ -573,12 +575,12 @@ h2#sidebar-header {
 
 <h4 id="inapplicable-example-4">Inapplicable Example 4</h4>
 
-<p><a class="example-link" title="Inapplicable Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/921e2bffbdced6b00801da02f7dc674b9ee6203c.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Inapplicable Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/9f5f3718830124266a4866dc42f539a5a03e37e5.html">Open in a new tab</a></p>
 
-<p>This <code class="language-plaintext highlighter-rouge">svg</code> element is ignored because it is a child of a link that provides its <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">svg</code> element is ignored because it is a child of a link that provides its <a href="#accessible-name" title="Definition of accessible name">accessible name</a>. Because some browsers expose the <code class="language-plaintext highlighter-rouge">svg</code> element with the <code class="language-plaintext highlighter-rouge">image</code> role, the <code class="language-plaintext highlighter-rouge">role="none"</code> attribute has been added to guarantee its presentational role.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://example.org"</span> <span class="na">aria-label=</span><span class="s">"SVG star"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;svg</span> <span class="na">height=</span><span class="s">"200"</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;svg</span> <span class="na">height=</span><span class="s">"200"</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">role=</span><span class="s">"none"</span><span class="nt">&gt;</span>
 		<span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">"100,10 40,180 190,60 10,60 160,180"</span> <span class="na">fill=</span><span class="s">"yellow"</span> <span class="nt">/&gt;</span>
 	<span class="nt">&lt;/svg&gt;</span>
 <span class="nt">&lt;/a&gt;</span>
@@ -858,7 +860,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> e88epe</p>
-<p><strong>Date:</strong> Updated 2 December 2024</p>
+<p><strong>Date:</strong> Updated 29 May 2025</p>
 <p><strong>Authors:</strong> <a href="https://www.linkedin.com/in/brianbors/">Brian Bors</a>, <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 
@@ -896,9 +898,9 @@ h2#sidebar-header {
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1748905362151419511"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1749497906652772420"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1748905362151419511"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1749497906652772420"></script>
 <script>
   svg4everybody();
 </script><script>
