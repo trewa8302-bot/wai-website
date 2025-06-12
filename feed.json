@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2025-06-12/dpub-aria-dpub-aam-rec/",
+            "title": "DPUB-ARIA and DPUB-AAM are now Web Standards (W3C Recommendations)",
+            "summary": null,
+            "content_text": "Digital Publishing WAI-ARIA Module 1.1 (DPUB-ARIA) and Digital Publishing Accessibility API Mappings 1.1 (DPUB-AAM) are now web standards (W3C Recommendations). DPUB-ARIA defines a set of ARIA roles to help assistive technology users navigate structural divisions of long-form digital documents, such as eBooks. DPUB-AAM defines how user agents (such as eBook readers) map the DPUB-ARIA markup to platform accessibility APIs. For an introduction to WAI-ARIA, see WAI-ARIA Overview.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/dpub-aria-1.1/\">Digital Publishing WAI-ARIA Module 1.1</a> (DPUB-ARIA) and <a href=\"https://www.w3.org/TR/dpub-aam-1.1/\">Digital Publishing Accessibility API Mappings 1.1</a> (DPUB-AAM) are now web standards (W3C Recommendations). DPUB-ARIA defines a set of ARIA roles to help assistive technology users navigate structural divisions of long-form digital documents, such as eBooks. DPUB-AAM defines how user agents (such as eBook readers) map the DPUB-ARIA markup to platform accessibility APIs. For an introduction to WAI-ARIA, see <a href=\"https://www.w3.org/WAI/standards-guidelines/aria/\">WAI-ARIA Overview</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2025-06-12/dpub-aria-dpub-aam-rec/",
+            
+            
+            
+            
+            
+            "date_published": "2025-06-12T00:00:00+00:00",
+            "date_modified": "2025-06-12T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2025-05-06/wcag2mobile/",
             "title": "For Review: Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile) — First Draft Note",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2023-02-20T00:00:00+00:00",
             "date_modified": "2023-02-20T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-02-13/WCAG-21-Catalan/",
-            "title": "WCAG 2.1 in Catalan: Authorized Translation Published",
-            "summary": null,
-            "content_text": "Directrius per a l'accessibilitat del contingut web (WCAG) 2.1, the Catalan Authorized Translation of Web Content Accessibility Guidelines (WCAG) 2.1, is now available, following completion of the W3C Authorized Translations process. Other translations of WAI resources are listed in All WAI Translations. WAI encourages translations in all languages. If you might be interesting in translating resources, see Translating WAI Resources.",
-            "content_html": "<p><a href=\"https://www.w3.org/Translations/WCAG21-ca/\">Directrius per a l'accessibilitat del contingut web (WCAG) 2.1</a>, the Catalan Authorized Translation of <a href=\"http://www.w3.org/WAI/intro/wcag\">Web Content Accessibility Guidelines (WCAG) 2.1</a>, is now available, following completion of the <a href=\"http://www.w3.org/2005/02/TranslationPolicy\">W3C Authorized Translations process</a>. Other translations of WAI resources are listed in <a href=\"https://www.w3.org/WAI/translations/\">All WAI Translations</a>. WAI encourages translations in all languages. If you might be interesting in translating resources, see <a href=\"https://www.w3.org/WAI/about/translating/\">Translating WAI Resources</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-02-13/WCAG-21-Catalan/",
-            
-            
-            
-            
-            
-            "date_published": "2023-02-13T00:00:00+00:00",
-            "date_modified": "2023-02-13T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"

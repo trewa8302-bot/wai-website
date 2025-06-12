@@ -3168,6 +3168,7 @@
 /news/2025-03-27/wcag-22-brazilian-portuguese/index.html
 /news/2025-05-06/wcag-21/index.html
 /news/2025-05-06/wcag2mobile/index.html
+/news/2025-06-12/dpub-aria-dpub-aam-rec/index.html
 /news/21/index.html
 /news/22/index.html
 /news/23/index.html
