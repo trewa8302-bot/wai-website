@@ -2377,7 +2377,7 @@
 /content-images/courses/andrew.png
 /content-images/courses/anthony.png
 /content-images/courses/carie.png
-/content-images/courses/certificate.png
+/content-images/courses/certificate.jpg
 /content-images/courses/checks-image-1.png
 /content-images/courses/henny.png
 /content-images/courses/makoto-video.png
