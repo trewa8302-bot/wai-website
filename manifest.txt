@@ -334,6 +334,7 @@
 /about/projects/wai-tools/symposium/record/index.html
 /about/projects/wai-tools/third-open-meeting/index.html
 /about/sponsoring/index.html
+/about/support/index.html
 /about/translating/guides/images/index.html
 /about/translating/guides/index.html
 /about/translating/guides/new-translation/index.html
