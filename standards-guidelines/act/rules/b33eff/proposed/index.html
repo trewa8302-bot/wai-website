@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1752141160896855363";
+      element.src = "/WAI/assets/scripts/main.js?1752150608609528042";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1752141160896855363">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1752150608609528042">
 
-<title> Orientation of the page is not restricted using CSS transforms[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1752141160896855363"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> Orientation of the page is not restricted using CSS transforms[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1752150608609528042"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Orientation of the page is not restricted using CSS transforms" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -326,7 +326,7 @@ h2#sidebar-header {
  </aside>
 
 <h2 id="description">Description</h2>
-<p>This rule checks that page content is not restricted to either <code class="language-plaintext highlighter-rouge">landscape</code> or <code class="language-plaintext highlighter-rouge">portrait</code> orientation using CSS transforms</p>
+<p>This rule checks that page content is not restricted to either <code class="language-plaintext highlighter-rouge">landscape</code> or <code class="language-plaintext highlighter-rouge">portrait</code> orientation using CSS transforms.</p>
 
 
 <h2 id="applicability">Applicability</h2>
@@ -547,7 +547,7 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Failed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/b33eff/93ad10ce32325be5b7c8cbaec7254d55e8fb577c.html">Open in a new tab</a></p>
 
-<p>This page appears rotated at a slight angle of 2.5 degrees for stylistic purposes, but is locked in portrait orientation by applying a 92.5 degree rotation when in landscape orientation:</p>
+<p>This page appears rotated at a slight angle of 2.5 degrees for stylistic purposes, but is locked in <code class="language-plaintext highlighter-rouge">portrait</code> orientation by applying a 92.5 degree rotation when in <code class="language-plaintext highlighter-rouge">landscape</code> orientation:</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;head&gt;</span>
@@ -644,7 +644,7 @@ h2#sidebar-header {
 
 <h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
 
-<p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/b33eff/5cde20e2acab8991c299a317825201af48bf5736.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/b33eff/3600a3d783678e384fec62211e854cb8a4d3d2d0.html">Open in a new tab</a></p>
 
 <p>A page where CSS <a href="https://www.w3.org/TR/css-transforms/#propdef-transform">transform</a> property is applied to an element that is not <a href="#visible">visible</a>.</p>
 
@@ -652,7 +652,7 @@ h2#sidebar-header {
 	<span class="nt">&lt;head&gt;</span>
 		<span class="nt">&lt;title&gt;</span>Page with some content<span class="nt">&lt;/title&gt;</span>
 		<span class="nt">&lt;style&gt;</span>
-			<span class="k">@media</span> <span class="p">(</span><span class="n">orientation</span><span class="p">:</span> <span class="n">lanscape</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">@media</span> <span class="p">(</span><span class="n">orientation</span><span class="p">:</span> <span class="nb">landscape</span><span class="p">)</span> <span class="p">{</span>
 				<span class="nt">body</span> <span class="p">{</span>
 					<span class="nl">transform</span><span class="p">:</span> <span class="n">rotateZ</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">270deg</span><span class="p">);</span>
 				<span class="p">}</span>
@@ -742,7 +742,7 @@ h2#sidebar-header {
 
 <p>When there are no test targets the rule has one <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome. If the tester is unable to determine whether there are test targets there will be one <code class="language-plaintext highlighter-rouge">cantTell</code> outcome. And when no evaluation has occurred the test target has one untested outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format-1.1/#test-subject">test subject</a> always has one or more outcomes.</p>
 
-<p>Outcomes used in ACT Rules can be expressed using the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a> of the [<a href="https://www.w3.org/TR/act-rules-format-1.1/#biblio-earl10-schema">EARL10-Schema</a>][].</p>
+<p>Outcomes used in ACT Rules can be expressed using the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a> of the <a href="https://www.w3.org/TR/act-rules-format-1.1/#biblio-earl10-schema">EARL10-Schema</a>.</p>
 
 <h3 id="visible">Visible</h3>
 
@@ -757,7 +757,12 @@ h2#sidebar-header {
 
 <h2 id="ruleversions">Rule Versions</h2>
 
-<p>This is the first version of this ACT rule.</p>
+<ol>
+  <li>
+      <a href="/WAI/standards-guidelines/act/rules/b33eff/">
+        Latest version, 14 April 2025</a>
+  </li>
+</ol>
 <h2 id="implementations">Implementations</h2>
   <p>This section is not part of the official rule. It is populated dynamically and 
     not accounted for in the change history or the last modified date.</p>
@@ -855,7 +860,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> b33eff</p>
-<p><strong>Date:</strong> Updated 2 December 2024</p>
+<p><strong>Date:</strong> Updated 8 July 2025</p>
 <p><strong>Authors:</strong> <a href="https://github.com/audreymaniez">Audrey Maniez</a>, <a href="https://github.com/jkodu">Jey Nandakumar</a>, Tom Brunet. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 </div>
@@ -891,9 +896,9 @@ h2#sidebar-header {
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1752141160896855363"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1752150608609528042"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1752141160896855363"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1752150608609528042"></script>
 <script>
   svg4everybody();
 </script><script>
