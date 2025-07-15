@@ -3614,6 +3614,7 @@
 /standards-guidelines/shared-experiences/index.html
 /standards-guidelines/uaag/index.html
 /standards-guidelines/uaag/pl.html
+/standards-guidelines/w3c-process/changelog/index.html
 /standards-guidelines/w3c-process/fr.html
 /standards-guidelines/w3c-process/index.html
 /standards-guidelines/wcag-mobile-overlap/index.html
