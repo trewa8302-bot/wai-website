@@ -36,6 +36,7 @@
 /ARIA/apg/patterns/dialog-modal/examples/datepicker-dialog/index.html
 /ARIA/apg/patterns/dialog-modal/examples/dialog/index.html
 /ARIA/apg/patterns/dialog-modal/index.html
+/ARIA/apg/patterns/disclosure/examples/disclosure-card/index.html
 /ARIA/apg/patterns/disclosure/examples/disclosure-faq/index.html
 /ARIA/apg/patterns/disclosure/examples/disclosure-image-description/index.html
 /ARIA/apg/patterns/disclosure/examples/disclosure-navigation-hybrid/index.html
@@ -592,11 +593,13 @@
 /content-assets/wai-aria-practices/patterns/dialog-modal/examples/img/CloseIcon.png
 /content-assets/wai-aria-practices/patterns/dialog-modal/examples/js/datepicker-dialog.js
 /content-assets/wai-aria-practices/patterns/dialog-modal/examples/js/dialog.js
+/content-assets/wai-aria-practices/patterns/disclosure/examples/css/disclosure-card.css
 /content-assets/wai-aria-practices/patterns/disclosure/examples/css/disclosure-faq.css
 /content-assets/wai-aria-practices/patterns/disclosure/examples/css/disclosure-image-description.css
 /content-assets/wai-aria-practices/patterns/disclosure/examples/css/disclosure-navigation.css
 /content-assets/wai-aria-practices/patterns/disclosure/examples/images/minard.png
 /content-assets/wai-aria-practices/patterns/disclosure/examples/js/disclosure-button.js
+/content-assets/wai-aria-practices/patterns/disclosure/examples/js/disclosure-card.js
 /content-assets/wai-aria-practices/patterns/disclosure/examples/js/disclosureMenu.js
 /content-assets/wai-aria-practices/patterns/feed/examples/css/feedDisplay.css
 /content-assets/wai-aria-practices/patterns/feed/examples/feedDisplay.html
