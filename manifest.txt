@@ -3457,6 +3457,7 @@
 /standards-guidelines/act/rules/46ca7f/proposed/index.html
 /standards-guidelines/act/rules/4b1c6c/proposed/index.html
 /standards-guidelines/act/rules/4c31df/proposed/index.html
+/standards-guidelines/act/rules/4e8ab6/index.html
 /standards-guidelines/act/rules/4e8ab6/proposed/index.html
 /standards-guidelines/act/rules/59796f/2022-01-28/index.html
 /standards-guidelines/act/rules/59796f/2022-06-23/index.html
@@ -3828,6 +3829,7 @@
 /wai-videos/people-use-web/user-stories_4.en.vtt
 /wai-videos/people-use-web/user-stories_5.en.vtt
 /wai-videos/people-use-web/user-stories_6.en.vtt
+/wai-videos/people-use-web/user-stories_6.es.vtt
 /wai-videos/people-use-web/user-stories_7.en.vtt
 /wai-videos/people-use-web/user-stories_8.en.vtt
 /wai-videos/people-use-web/user-stories_9.en.vtt
