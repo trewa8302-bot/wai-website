@@ -3234,7 +3234,6 @@
 /pages/about/projects/wai-coop/symposium3_transcript.html
 /pages/design-develop/tutorials/carousels/examples/carousel.js
 /pages/design-develop/tutorials/carousels/examples/focusinoutpolyfill.js
-/pages/planning-policies/statements/generator.nl.md
 /pages/planning-policies/statements/generator_layout.html
 /pages/wai-authoring-tools-list/images/w3c.svg
 /pages/wai-authoring-tools-list/images/wai.svg
@@ -3325,6 +3324,7 @@
 /planning/statements/changelog/index.html
 /planning/statements/complete-example/index.html
 /planning/statements/generator/index.html
+/planning/statements/generator/nl.html
 /planning/statements/index.html
 /planning/statements/minimal-example/index.html
 /policies/aland/index.html
