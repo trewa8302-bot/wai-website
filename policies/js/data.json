@@ -46,28 +46,56 @@
     "countryhref": "/WAI/policies/australia/",
     "policyname": "Disability Discrimination Act 1992 (DDA)",
     "policyhref": "/WAI/policies/australia/#disability-discrimination-act-1992-dda",
-    "url": "http://www.legislation.gov.au/Details/C2016C00763",
+    "url": "https://www.legislation.gov.au/C2004A04426/",
     "enactdate": "1992",
     "type": "Non-discrimination law",
     "scope": [
-      "Public sector","Private sector"
+      "Government","Public sector","Private sector"
     ],
     "webonly": "No",
-    "wcagver": "WCAG 2.0"
+    "wcagver": "None"
   },
 {
     "title": "Australia",
     "countryhref": "/WAI/policies/australia/",
-    "policyname": "Procurement Standard Guidance",
-    "policyhref": "/WAI/policies/australia/#procurement-standard-guidance",
-    "url": "http://www.legislation.gov.au/Details/C2016C00763",
-    "enactdate": "2016",
-    "type": "Procurement recommendation",
+    "policyname": "Commonwealth Procurement Rules (CPR)",
+    "policyhref": "/WAI/policies/australia/#commonwealth-procurement-rules-cpr",
+    "url": "https://www.finance.gov.au/government/procurement/commonwealth-procurement-rules",
+    "enactdate": "2024",
+    "type": "Procurement recommendation, Mandatory policy",
     "scope": [
-      "Government"
+      "Government","Public sector"
     ],
     "webonly": "No",
-    "wcagver": "WCAG 2.0"
+    "wcagver": "WCAG 2.1 derivate"
+  },
+{
+    "title": "Australia",
+    "countryhref": "/WAI/policies/australia/",
+    "policyname": "Digital Experience Policy",
+    "policyhref": "/WAI/policies/australia/#digital-experience-policy",
+    "url": "https://www.digital.gov.au/policy/digital-experience",
+    "enactdate": "2024",
+    "type": "Mandatory policy",
+    "scope": [
+      "Government","Public sector"
+    ],
+    "webonly": "No",
+    "wcagver": "WCAG 2.2"
+  },
+{
+    "title": "Australia",
+    "countryhref": "/WAI/policies/australia/",
+    "policyname": "Telecommunications Consumer Protections (TCP) Code C628:2019",
+    "policyhref": "/WAI/policies/australia/#telecommunications-consumer-protections-tcp-code-c628-2019",
+    "url": "https://www.acma.gov.au/telecommunications-consumer-protections-code",
+    "enactdate": "2019",
+    "type": "Mandatory policy",
+    "scope": [
+      "Private sector"
+    ],
+    "webonly": "No",
+    "wcagver": "WCAG 2.1"
   },
 {
     "title": "Austria",
@@ -319,7 +347,7 @@
       "Public sector"
     ],
     "webonly": "No",
-    "wcagver": "WCAG 2.0"
+    "wcagver": "WCAG 2.1"
   },
 {
     "title": "European Union",
@@ -333,7 +361,7 @@
       "Public sector","Private sector"
     ],
     "webonly": "No",
-    "wcagver": "WCAG 2.0 derivative"
+    "wcagver": "WCAG 2.2"
   },
 {
     "title": "Finland",
