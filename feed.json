@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2025-07-24/advancing-digital-accessibility-accessu-recording/",
+            "title": "Advancing Digital Accessibility with W3C WAI — keynote recording available",
+            "summary": null,
+            "content_text": "Shawn Lawton Henry (W3C Director, Web Accessibility Initiative (WAI)) and Kevin White (Senior Principal Accessibility Specialist) led an interactive session at the AccessU 2025 training conference. Learn about WAI resources to help promote that accessibility is about improving the user experiences of people with disabilities, and to support you in planning, managing, designing, developing, and training for digital accessibility. The Q&amp;A includes the WCAG 3 approach and timeline (years away). Find out how you can contribute to W3C accessibility work. See the recording of Advancing Digital Accessibility with W3C WAI.",
+            "content_html": "<p><a href=\"https://www.w3.org/staff/wai/#shawn\">Shawn Lawton Henry</a> (W3C Director, Web Accessibility Initiative (WAI)) and <a href=\"https://www.w3.org/staff/wai/#kevin\">Kevin White</a> (Senior Principal Accessibility Specialist) led an interactive session at the AccessU 2025 training conference. Learn about WAI resources to help promote that accessibility is about improving the user experiences of people with disabilities, and to support you in planning, managing, designing, developing, and training for digital accessibility. The Q&amp;A includes the WCAG 3 approach and timeline (years away). Find out how you can contribute to W3C accessibility work. See the recording of <a href=\"https://www.youtube.com/watch?v=LWOiKSLIn58&amp;list=PLhDEeYUfW02QhGrDOHxLM9ZNZnQiLiFuZ&amp;index=1\">Advancing Digital Accessibility with W3C WAI</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2025-07-24/advancing-digital-accessibility-accessu-recording/",
+            
+            
+            
+            
+            
+            "date_published": "2025-07-24T00:00:00+00:00",
+            "date_modified": "2025-07-24T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2025-06-12/dpub-aria-dpub-aam-rec/",
             "title": "DPUB-ARIA and DPUB-AAM are now Web Standards (W3C Recommendations)",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2023-05-17T00:00:00+00:00",
             "date_modified": "2023-05-17T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-02-20/Ukrainian-WCAG21/",
-            "title": "WCAG 2.1 in Ukrainian: Authorized Translation Published",
-            "summary": null,
-            "content_text": "Настанови з доступності вебвмісту (WCAG) 2.1, the Ukrainian Authorized Translation of Web Content Accessibility Guidelines (WCAG) 2.1, is now available, following completion of the W3C Authorized Translations process. Other translations of WAI resources are listed in All WAI Translations. WAI encourages translations in all languages. If you might be interesting in translating resources, see Translating WAI Resources.",
-            "content_html": "<p><a href=\"https://www.w3.org/Translations/WCAG21-ua/\">Настанови з доступності вебвмісту (WCAG) 2.1</a>, the Ukrainian Authorized Translation of <a href=\"http://www.w3.org/WAI/intro/wcag\">Web Content Accessibility Guidelines (WCAG) 2.1</a>, is now available, following completion of the <a href=\"http://www.w3.org/2005/02/TranslationPolicy\">W3C Authorized Translations process</a>. Other translations of WAI resources are listed in <a href=\"https://www.w3.org/WAI/translations/\">All WAI Translations</a>. WAI encourages translations in all languages. If you might be interesting in translating resources, see <a href=\"https://www.w3.org/WAI/about/translating/\">Translating WAI Resources</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-02-20/Ukrainian-WCAG21/",
-            
-            
-            
-            
-            
-            "date_published": "2023-02-20T00:00:00+00:00",
-            "date_modified": "2023-02-20T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"

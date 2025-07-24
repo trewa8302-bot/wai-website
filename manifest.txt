@@ -3187,6 +3187,7 @@
 /news/2025-05-06/wcag-21/index.html
 /news/2025-05-06/wcag2mobile/index.html
 /news/2025-06-12/dpub-aria-dpub-aam-rec/index.html
+/news/2025-07-24/advancing-digital-accessibility-accessu-recording/index.html
 /news/21/index.html
 /news/22/index.html
 /news/23/index.html
