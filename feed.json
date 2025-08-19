@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2025-08-19/act-rules-format-1.1-CR/",
+            "title": "Call for implementations: Accessibility Conformance Testing (ACT) Rules Format 1.1 — Candidate Recommendation",
+            "summary": null,
+            "content_text": "Accessibility Conformance Testing (ACT) Rules Format 1.1 is now a Candidate Recommendation Snapshot. That means we’re seeking example implementations. ACT Rules Format defines a format for writing accessibility test rules that can be used for developing automated testing tools and manual testing methodologies. For an introduction to Accessibility Conformance Testing, see the ACT Overview. We welcome implementations any time. Please submit any comments by 20 October 2025.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/act-rules-format-1.1/\">Accessibility Conformance Testing (ACT) Rules Format 1.1</a> is now a Candidate Recommendation Snapshot. That means we’re seeking example implementations. ACT Rules Format defines a format for writing accessibility test rules that can be used for developing automated testing tools and manual testing methodologies. For an introduction to Accessibility Conformance Testing, see the <a href=\"https://www.w3.org/WAI/standards-guidelines/act/\">ACT Overview</a>. We welcome implementations any time. Please submit any comments by 20 October 2025.</p>",
+            "url": "https://www.w3.org/WAI/news/2025-08-19/act-rules-format-1.1-CR/",
+            
+            
+            
+            
+            
+            "date_published": "2025-08-19T00:00:00+00:00",
+            "date_modified": "2025-08-19T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2025-07-24/advancing-digital-accessibility-accessu-recording/",
             "title": "Advancing Digital Accessibility with W3C WAI — keynote recording available",
             "summary": null,
@@ -733,27 +754,6 @@
             "content_text": "WCAG 2.2 ‘Candidate Recommendation’ draft was updated 17 May 2023. For the latest list of changes, status, and expected publication date, please see What’s New in WCAG 2.2 Draft.",
             "content_html": "<p><a href=\"https://www.w3.org/TR/WCAG22\">WCAG 2.2</a> ‘Candidate Recommendation’ draft was updated 17 May 2023. For the latest list of changes, status, and expected publication date, please see <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/\">What’s New in WCAG 2.2 Draft</a>.</p>",
             "url": "https://www.w3.org/WAI/news/2023-05-17/wcag-22-cr/",
-            
-            
-            
-            
-            
-            "date_published": "2023-05-17T00:00:00+00:00",
-            "date_modified": "2023-05-17T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-05-17/GAAD/",
-            "title": "W3C WAI Updates for GAAD 2023",
-            "summary": null,
-            "content_text": "In preparation for Global Accessibility Awareness Day (GAAD), W3C WAI Updates for GAAD 2023 includes brief notes on:  WCAG 2.2 and WCAG 3  WAI resources  WAI leadershipWe welcome your sharing this information widely.",
-            "content_html": "<p>In preparation for Global Accessibility Awareness Day (GAAD), <a href=\"https://www.w3.org/blog/2023/w3c-wai-updates-for-gaad-2023/\">W3C WAI Updates for GAAD 2023</a> includes brief notes on:</p><ul>  <li>WCAG 2.2 and WCAG 3</li>  <li>WAI resources</li>  <li>WAI leadership</li></ul><p>We welcome your sharing this information widely.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-05-17/GAAD/",
             
             
             
