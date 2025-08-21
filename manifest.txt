@@ -3189,6 +3189,7 @@
 /news/2025-06-12/dpub-aria-dpub-aam-rec/index.html
 /news/2025-07-24/advancing-digital-accessibility-accessu-recording/index.html
 /news/2025-08-19/act-rules-format-1.1-CR/index.html
+/news/2025-08-21/wcag2ict/index.html
 /news/21/index.html
 /news/22/index.html
 /news/23/index.html
@@ -3208,6 +3209,7 @@
 /news/36/index.html
 /news/37/index.html
 /news/38/index.html
+/news/39/index.html
 /news/4/index.html
 /news/5/index.html
 /news/6/index.html

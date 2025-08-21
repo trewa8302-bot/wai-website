@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2025-08-21/wcag2ict/",
+            "title": "WCAG2ICT — W3C Group Note updated to coordinate with EN 301 549",
+            "summary": null,
+            "content_text": "Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT) has been updated in coordination with the work to update EN 301 549. EN 301 549 is the European standard ‘Accessibility requirements for ICT products and services’. For the list of substantive changes, see Changes since the 15 November 2024 Note. For an introduction to WCAG2ICT, see the WCAG2ICT Overview.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/wcag2ict-22/\">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</a> has been updated in coordination with the work to update EN 301 549. EN 301 549 is the European standard ‘Accessibility requirements for ICT products and services’. For the list of substantive changes, see <a href=\"https://www.w3.org/TR/wcag2ict-22/#changelog\">Changes since the 15 November 2024 Note</a>. For an introduction to WCAG2ICT, see the <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/non-web-ict/\">WCAG2ICT Overview</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2025-08-21/wcag2ict/",
+            
+            
+            
+            
+            
+            "date_published": "2025-08-21T00:00:00+00:00",
+            "date_modified": "2025-08-21T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2025-08-19/act-rules-format-1.1-CR/",
             "title": "Call for implementations: Accessibility Conformance Testing (ACT) Rules Format 1.1 — Candidate Recommendation",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2023-05-25T00:00:00+00:00",
             "date_modified": "2023-05-25T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-05-17/wcag-22-cr/",
-            "title": "Updated May 2023: WCAG 2.2 Candidate Recommendation Draft",
-            "summary": null,
-            "content_text": "WCAG 2.2 ‘Candidate Recommendation’ draft was updated 17 May 2023. For the latest list of changes, status, and expected publication date, please see What’s New in WCAG 2.2 Draft.",
-            "content_html": "<p><a href=\"https://www.w3.org/TR/WCAG22\">WCAG 2.2</a> ‘Candidate Recommendation’ draft was updated 17 May 2023. For the latest list of changes, status, and expected publication date, please see <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/\">What’s New in WCAG 2.2 Draft</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-05-17/wcag-22-cr/",
-            
-            
-            
-            
-            
-            "date_published": "2023-05-17T00:00:00+00:00",
-            "date_modified": "2023-05-17T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
