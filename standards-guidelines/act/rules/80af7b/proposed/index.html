@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1755760211513260090";
+      element.src = "/WAI/assets/scripts/main.js?1756202101685685699";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1755760211513260090">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1756202101685685699">
 
-<title> Focusable element has no keyboard trap[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1755760211513260090"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> Focusable element has no keyboard trap[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1756202101685685699"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Focusable element has no keyboard trap" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -536,6 +536,23 @@ h2#sidebar-header {
 <span class="nt">&lt;a</span> <span class="na">id=</span><span class="s">"link2"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Link 2<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
+<h4 id="passed-example-7">Passed Example 7</h4>
+
+<p><a class="example-link" title="Passed Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/d2f5325f3fd5ddde38cd677a5ca36ba0d762fb84.html">Open in a new tab</a></p>
+
+<p>The <a href="#focusable" title="Definition of focusable">focusable</a> <code class="language-plaintext highlighter-rouge">button</code> labeled “Button3” creates a keyboard trap when navigating forward, as it moves focus back to “Button1” preventing users to focus “Button3”. However, when navigating backward, all focusable elements receive focus as expected. Therefore, according to the background notes, this behavior is considered compliant with the rule, despite being recognized as a poor practice in terms of keyboard accessibility.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">onblur=</span><span class="s">"setTimeout(() =&gt; this.nextElementSibling.focus(), 10)"</span><span class="nt">&gt;</span>
+	Button1
+<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">onblur=</span><span class="s">"setTimeout(() =&gt; this.previousElementSibling.focus(), 10)"</span><span class="nt">&gt;</span>
+	Button2
+<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button&gt;</span>
+	Button3
+<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+
 <h3 id="failed">Failed</h3>
 
 <h4 id="failed-example-1">Failed Example 1</h4>
@@ -553,24 +570,7 @@ h2#sidebar-header {
 
 <h4 id="failed-example-2">Failed Example 2</h4>
 
-<p><a class="example-link" title="Failed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/d2f5325f3fd5ddde38cd677a5ca36ba0d762fb84.html">Open in a new tab</a></p>
-
-<p>These <a href="#focusable" title="Definition of focusable">focusable</a> <code class="language-plaintext highlighter-rouge">button</code> elements create a keyboard trap preventing the last <code class="language-plaintext highlighter-rouge">button</code> to be reached using the keyboard.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">onblur=</span><span class="s">"setTimeout(() =&gt; this.nextElementSibling.focus(), 10)"</span><span class="nt">&gt;</span>
-	Button1
-<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">onblur=</span><span class="s">"setTimeout(() =&gt; this.previousElementSibling.focus(), 10)"</span><span class="nt">&gt;</span>
-	Button2
-<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button&gt;</span>
-	Button3
-<span class="nt">&lt;/button&gt;</span>
-</code></pre></div></div>
-
-<h4 id="failed-example-3">Failed Example 3</h4>
-
-<p><a class="example-link" title="Failed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/0ec0e93e7f8ffca39e1eb58a4a8503f1bd4cb145.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Failed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/0ec0e93e7f8ffca39e1eb58a4a8503f1bd4cb145.html">Open in a new tab</a></p>
 
 <p>This <code class="language-plaintext highlighter-rouge">button</code> element is between other <code class="language-plaintext highlighter-rouge">button</code> elements creating a keyboard trap.</p>
 
@@ -579,9 +579,9 @@ h2#sidebar-header {
 <span class="nt">&lt;button</span> <span class="na">onblur=</span><span class="s">"setTimeout(() =&gt; this.focus(), 10)"</span><span class="nt">&gt;</span>Button 3<span class="nt">&lt;/button&gt;</span>
 </code></pre></div></div>
 
-<h4 id="failed-example-4">Failed Example 4</h4>
+<h4 id="failed-example-3">Failed Example 3</h4>
 
-<p><a class="example-link" title="Failed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/7dcc4ae00712889d448ecbcba200e032dca59bf0.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Failed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/7dcc4ae00712889d448ecbcba200e032dca59bf0.html">Open in a new tab</a></p>
 
 <p>These focusable <code class="language-plaintext highlighter-rouge">button</code> elements create a keyboard trap with no instructions.</p>
 
@@ -597,9 +597,9 @@ h2#sidebar-header {
 <span class="nt">&lt;a</span> <span class="na">id=</span><span class="s">"link2"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Link 2<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
-<h4 id="failed-example-5">Failed Example 5</h4>
+<h4 id="failed-example-4">Failed Example 4</h4>
 
-<p><a class="example-link" title="Failed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/8fba3918b361f251dab4c19bec8eddc5624218ee.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Failed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/8fba3918b361f251dab4c19bec8eddc5624218ee.html">Open in a new tab</a></p>
 
 <p>These focusable <code class="language-plaintext highlighter-rouge">button</code> elements create a keyboard trap with instructions that don’t give advice on the method for proceeding.</p>
 
@@ -616,9 +616,9 @@ h2#sidebar-header {
 <span class="nt">&lt;a</span> <span class="na">id=</span><span class="s">"link2"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Link 2<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
-<h4 id="failed-example-6">Failed Example 6</h4>
+<h4 id="failed-example-5">Failed Example 5</h4>
 
-<p><a class="example-link" title="Failed Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/62fd24e73ea55f55ad45de392128a816a6f03526.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Failed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/62fd24e73ea55f55ad45de392128a816a6f03526.html">Open in a new tab</a></p>
 
 <p>These focusable <code class="language-plaintext highlighter-rouge">button</code> elements create a keyboard trap with help text, where the method advised doesn’t work.</p>
 
@@ -746,29 +746,12 @@ h2#sidebar-header {
 
 <p>This is the first version of this ACT rule.</p>
 <h2 id="implementations">Implementations</h2>
-  <p>This section is not part of the official rule. It is populated dynamically and 
-    not accounted for in the change history or the last modified date.</p>
-  <div class="scroll-wrap">
-    <table class="act-implementations">
-      <thead>
-        <tr>
-          <th>Implementation</th>
-          <th>Type</th>
-          <th>Consistency</th>
-          <th>Report</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr>
-            <td>Trusted Tester 5.1</td>
-            <td>Test methodology</td>
-            <td>
-              Consistent </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/trusted-tester#breakdown-80af7b"><img alt="Trusted Tester Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-      </tbody>
-    </table>
-  </div>
+  <p>There are currently no known implementations for this rule.
+    If you would like to contribute an implementation, please read the 
+    <a href="/WAI/standards-guidelines/act/implementations/">
+      ACT Implementations page
+    </a> for details.
+  </p>
 <h2 id="usefullinks">Useful Links</h2>
 <ul>
   <li><a href="https://github.com/act-rules/act-rules.github.io/issues?utf8=%E2%9C%93&amp;q=is%3Aissue+is%3Aopen+80af7b+">
@@ -800,7 +783,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 80af7b</p>
-<p><strong>Date:</strong> Updated 8 July 2025</p>
+<p><strong>Date:</strong> Updated 21 August 2025</p>
 <p><strong>Authors:</strong> <a href="https://github.com/annethyme">Anne Thyme Nørregaard</a>, <a href="https://github.com/DagfinnRomen">Dagfinn Rømen</a>, <a href="https://github.com/geirsf">Geir Sindre Fossøy</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 </div>
@@ -836,9 +819,9 @@ h2#sidebar-header {
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1755760211513260090"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1756202101685685699"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1755760211513260090"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1756202101685685699"></script>
 <script>
   svg4everybody();
 </script><script>
