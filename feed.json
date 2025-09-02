@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2025-09-01/maturity-model/",
+            "title": "For Wide Review: Accessibility Maturity Model — Updated Draft Note",
+            "summary": null,
+            "content_text": "Accessibility Maturity Model Updated Draft Note is ready for review. The Accessibility Maturity Model provides a framework to assess an organization’s policies and procedures to deliver accessible products and services. It can be used to measure current capabilities, identify gaps, and plan improvements. For more details, review questions and how to comment, see the email announcing the Accessibility Maturity Model update. Please comment by 30 September 2025.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/maturity-model/\">Accessibility Maturity Model Updated Draft Note</a> is ready for review. The Accessibility Maturity Model provides a framework to assess an organization’s policies and procedures to deliver accessible products and services. It can be used to measure current capabilities, identify gaps, and plan improvements. For more details, review questions and how to comment, see the <a href=\"https://lists.w3.org/Archives/Public/public-wai-announce/2025JulSep/0003.html\">email announcing the Accessibility Maturity Model update</a>. <strong>Please comment by 30 September 2025</strong>.</p>",
+            "url": "https://www.w3.org/WAI/news/2025-09-01/maturity-model/",
+            
+            
+            
+            
+            
+            "date_published": "2025-09-01T00:00:00+00:00",
+            "date_modified": "2025-09-01T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2025-08-21/wcag2ict/",
             "title": "WCAG2ICT — W3C Group Note updated to coordinate with EN 301 549",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2023-06-06T00:00:00+00:00",
             "date_modified": "2023-06-06T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-05-25/EPUB/",
-            "title": "EPUB Standard for Accessible Digital Documents",
-            "summary": null,
-            "content_text": "EPUB 3.3 is now a “W3C Recommendation” web standard. EPUB defines a distribution and interchange format for digital publications and documents. Accessibility is an integral part of the EPUB standard. Today’s publications include: EPUB Accessibility 1.1. Learn more from the press release EPUB 3.3 becomes a W3C Recommendation.",
-            "content_html": "<p><a href=\"https://www.w3.org/TR/2023/REC-epub-33-20230525/\">EPUB 3.3</a> is now a “W3C Recommendation” web standard. EPUB defines a distribution and interchange format for digital publications and documents. Accessibility is an integral part of the EPUB standard. Today’s publications include: <a href=\"https://www.w3.org/TR/epub-a11y-11/\">EPUB Accessibility 1.1</a>. Learn more from the press release <a href=\"https://w3.org/2023/05/pressrelease-epub33-rec.html.en\">EPUB 3.3 becomes a W3C Recommendation</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-05-25/EPUB/",
-            
-            
-            
-            
-            
-            "date_published": "2023-05-25T00:00:00+00:00",
-            "date_modified": "2023-05-25T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
