@@ -3194,6 +3194,7 @@
 /news/2025-08-19/act-rules-format-1.1-CR/index.html
 /news/2025-08-21/wcag2ict/index.html
 /news/2025-09-01/maturity-model/index.html
+/news/2025-09-04/wcag3/index.html
 /news/21/index.html
 /news/22/index.html
 /news/23/index.html

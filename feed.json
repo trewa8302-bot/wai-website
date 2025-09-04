@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2025-09-04/wcag3/",
+            "title": "For Review: WCAG 3 Working Draft - September 2025",
+            "summary": null,
+            "content_text": "W3C Accessibility Guidelines (WCAG) 3.0 Working Draft is updated. For review questions and how to comment, please see the WCAG 3 section ‘About this draft’. The starting place for background, timeline, and up-to-date information is the WCAG 3 Introduction.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/wcag-3.0/\">W3C Accessibility Guidelines (WCAG) 3.0 Working Draft</a> is updated. For review questions and how to comment, please see the <a href=\"https://www.w3.org/TR/wcag-3.0/#about-this-draft\">WCAG 3 section ‘About this draft’</a>. The starting place for background, timeline, and up-to-date information is the <a href=\"/WAI/standards-guidelines/wcag/wcag3-intro/\">WCAG 3 Introduction</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2025-09-04/wcag3/",
+            
+            
+            
+            
+            
+            "date_published": "2025-09-04T00:00:00+00:00",
+            "date_modified": "2025-09-04T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2025-09-01/maturity-model/",
             "title": "For Wide Review: Accessibility Maturity Model — Updated Draft Note",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2023-07-20T00:00:00+00:00",
             "date_modified": "2023-07-20T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-06-06/aria-12-rec/",
-            "title": "WAI-ARIA 1.2 is a Web Standard \"W3C Recommendation\"",
-            "summary": null,
-            "content_text": "WAI-ARIA 1.2 is now a “W3C Recommendation” web standard. WAI-ARIA provides an ontology of roles, states, and properties that define accessible user interface elements. These semantics allow authors to convey user interface behaviors and structural information to assistive technologies. A list of what’s changed since WAI-ARIA 1.1 is in the changelog. For an introduction to WAI-ARIA and related resources, see the WAI-ARIA Overview.",
-            "content_html": "<p><a href=\"https://www.w3.org/TR/wai-aria-1.2/\">WAI-ARIA 1.2</a> is now a “W3C Recommendation” web standard. WAI-ARIA provides an ontology of roles, states, and properties that define accessible user interface elements. These semantics allow authors to convey user interface behaviors and structural information to assistive technologies. A list of what’s changed since WAI-ARIA 1.1 is in the <a href=\"https://www.w3.org/TR/wai-aria-1.2/#changelog\">changelog</a>. For an introduction to WAI-ARIA and related resources, see the <a href=\"https://www.w3.org/WAI/standards-guidelines/aria/\">WAI-ARIA Overview</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-06-06/aria-12-rec/",
-            
-            
-            
-            
-            
-            "date_published": "2023-06-06T00:00:00+00:00",
-            "date_modified": "2023-06-06T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
