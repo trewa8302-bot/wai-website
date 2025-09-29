@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1758715904866399924";
+      element.src = "/WAI/assets/scripts/main.js?1759162865699810208";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1758715904866399924">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1759162865699810208">
 
-<title> ARIA required ID references exist[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1758715904866399924"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> ARIA required ID references exist[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1759162865699810208"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="ARIA required ID references exist" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -329,7 +329,7 @@ h2#sidebar-header {
 
 <h2 id="applicability">Applicability</h2>
 
-<p>This rule applies to any <code class="language-plaintext highlighter-rouge">aria-controls</code> attribute defined on an [HTML element][namespaced element] for which one of the following is true:</p>
+<p>This rule applies to any <code class="language-plaintext highlighter-rouge">aria-controls</code> attribute defined on an <a href="#namespaced-element" title="Definition of namespaced element">HTML element</a> for which one of the following is true:</p>
 
 <ul>
   <li><dfn>expanded combobox</dfn>: the element is a <a href="#semantic-role" title="Definition of Semantic Role">semantic</a> <code class="language-plaintext highlighter-rouge">combobox</code> with an <code class="language-plaintext highlighter-rouge">aria-expanded</code> <a href="#attribute-value" title="Definition of Attribute Value">attribute value</a> of <code class="language-plaintext highlighter-rouge">true</code>; or</li>
@@ -625,6 +625,12 @@ not tested by the rule:</p>
 
 <p>Elements can also be ignored by assistive technologies if they are <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a>. This is different from marking the element as decorative and does not convey the same intention. Notably, being <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a> may change as users interact with the page (showing and hiding elements) while being marked as decorative should stay the same through all states of the page.</p>
 
+<h3 id="namespaced-element">Namespaced Element</h3>
+
+<p>An <a href="https://dom.spec.whatwg.org/#element" title="DOM element, 2021/05/31">element</a> with a specific <a href="https://dom.spec.whatwg.org/#dom-element-namespaceuri" title="DOM Element namespaceURI, 2021/05/31">namespaceURI</a> value from <a href="https://infra.spec.whatwg.org/#namespaces" title="HTML namespace, 2021/05/31">HTML namespaces</a>. For example an “SVG element” is any element with the “SVG namespace”, which is <code class="language-plaintext highlighter-rouge">http://www.w3.org/2000/svg</code>.</p>
+
+<p>Namespaced elements are not limited to elements described in a specification. They also include custom elements. Elements such as <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">title</code> have a different namespace depending on where they are used. For example a <code class="language-plaintext highlighter-rouge">title</code> in an HTML page usually has the HTML namespace. When used in an <code class="language-plaintext highlighter-rouge">svg</code> element, a <code class="language-plaintext highlighter-rouge">title</code> element has the SVG namespace instead.</p>
+
 <h3 id="outcome">Outcome</h3>
 
 <p>A conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format-1.1/#test-subject">test subject</a> or one of its constituent test target. An outcome can be one of the five following types:</p>
@@ -781,7 +787,7 @@ not tested by the rule:</p>
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> in6db8</p>
-<p><strong>Date:</strong> Updated 8 July 2025</p>
+<p><strong>Date:</strong> Updated 29 September 2025</p>
 <p><strong>Authors:</strong> <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 </div>
@@ -817,9 +823,9 @@ not tested by the rule:</p>
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1758715904866399924"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1759162865699810208"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1758715904866399924"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1759162865699810208"></script>
 <script>
   svg4everybody();
 </script><script>

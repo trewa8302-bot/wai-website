@@ -3453,6 +3453,7 @@
 /standards-guidelines/act/rules/2779a5/proposed/index.html
 /standards-guidelines/act/rules/2eb176/proposed/index.html
 /standards-guidelines/act/rules/2ee8b8/proposed/index.html
+/standards-guidelines/act/rules/2t702h/index.html
 /standards-guidelines/act/rules/2t702h/proposed/index.html
 /standards-guidelines/act/rules/307n5z/2022-06-23/index.html
 /standards-guidelines/act/rules/307n5z/index.html
