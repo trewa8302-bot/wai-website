@@ -4,8 +4,8 @@
     "home_page_url": "https://www.w3.org/WAI/",
     "feed_url": "https://www.w3.org/WAI/feed.json",
     "description": "Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).\n",
-    "icon": "https://www.w3.org/WAI/apple-touch-icon.png",
-    "favicon": "https://www.w3.org/WAI/favicon.ico",
+    "icon": "https://www.w3.org/assets/logos/w3c/favicon-180.png",
+    "favicon": "https://www.w3.org/assets/logos/w3c/favicon-32.png",
     "expired": false,
     
     "author": "W3C Web Accessibility Initiative (WAI)",

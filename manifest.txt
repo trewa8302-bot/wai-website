@@ -2340,7 +2340,7 @@
 /content-images/about/translating/propose-changes.jpg
 /content-images/about/translating/ready-for-review-button.jpg
 /content-images/about/translating/ready-for-review-state.jpg
-/content-images/about/update_social.png
+/content-images/about/update-social.png
 /content-images/about/wai-coop/Fig1.png
 /content-images/about/wai-coop/Fig2.png
 /content-images/about/wai-coop/fig1_sample_layouts.png
@@ -2625,7 +2625,6 @@
 /content-images/perspective-videos/voice.jpg
 /content-images/planning-managing/icons.svg
 /content-images/resources-list/resources-social.png
-/content-images/social-translations.png
 /content-images/test-eval/video-thumb-conformance.png
 /content-images/test-eval/video-thumb-easy-checks.png
 /content-images/test-eval/video-thumb-involving-users.png
@@ -2871,14 +2870,12 @@
 /content-images/wai-wcag-supplemental/tools.svg
 /content-images/wcag/brain-icon.svg
 /content-images/wcag/calandara.svg
-/content-images/wcag/conformance-logos-social.png
 /content-images/wcag/dialogs2.svg
 /content-images/wcag/general-social.png
 /content-images/wcag/quick-ref-customize.png
-/content-images/wcag/wcag-intro-social.png
 /content-images/wcag/wcag20docs.png
 /content-images/wcag/wcag20links-docs.png
-/content-images/wcag/wcag3_social.png
+/content-images/wcag/wcag3-social.png
 /courses/foundations-course/index.html
 /courses/index.html
 /courses/list/index.html
@@ -2923,7 +2920,6 @@
 /design-develop/index.html
 /example-link/index.html
 /expand-access/index.html
-/favicon.ico
 /feed.json
 /feed.xml
 /fundamentals/accessibility-intro/ar.html
