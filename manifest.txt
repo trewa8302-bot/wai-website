@@ -91,6 +91,7 @@
 /ARIA/apg/patterns/slider/examples/slider-temperature/index.html
 /ARIA/apg/patterns/slider/index.html
 /ARIA/apg/patterns/spinbutton/examples/datepicker-spinbuttons/index.html
+/ARIA/apg/patterns/spinbutton/examples/quantity-spinbutton/index.html
 /ARIA/apg/patterns/spinbutton/index.html
 /ARIA/apg/patterns/switch/examples/switch-button/index.html
 /ARIA/apg/patterns/switch/examples/switch-checkbox/index.html
@@ -704,7 +705,9 @@
 /content-assets/wai-aria-practices/patterns/slider/examples/js/slider-seek.js
 /content-assets/wai-aria-practices/patterns/slider/examples/js/slider-temperature.js
 /content-assets/wai-aria-practices/patterns/spinbutton/examples/css/datepicker-spinbuttons.css
+/content-assets/wai-aria-practices/patterns/spinbutton/examples/css/quantity-spinbutton.css
 /content-assets/wai-aria-practices/patterns/spinbutton/examples/js/datepicker-spinbuttons.js
+/content-assets/wai-aria-practices/patterns/spinbutton/examples/js/quantity-spinbutton.js
 /content-assets/wai-aria-practices/patterns/spinbutton/examples/js/spinbutton-date.js
 /content-assets/wai-aria-practices/patterns/switch/examples/css/switch-button.css
 /content-assets/wai-aria-practices/patterns/switch/examples/css/switch-checkbox.css
@@ -750,10 +753,13 @@
 /content-assets/wai-aria-practices/shared/js/examples.js
 /content-assets/wai-aria-practices/shared/js/filterBySearch.js
 /content-assets/wai-aria-practices/shared/js/highlight.pack.js
+/content-assets/wai-aria-practices/shared/js/read-this-first.js
 /content-assets/wai-aria-practices/shared/js/skipto.js
 /content-assets/wai-aria-practices/shared/js/specLinks.mjs
 /content-assets/wai-aria-practices/shared/js/utils.js
 /content-assets/wai-aria-practices/shared/templates/example-usage-warning.html
+/content-assets/wai-aria-practices/shared/templates/experimental-example-usage-warning.html
+/content-assets/wai-aria-practices/shared/templates/read-this-first.html
 /content-assets/wai-aria-practices/styles.css
 /content-assets/wai-arrm/arrm-all-tasks.csv
 /content-assets/wai-arrm/arrm-wcag-sc.csv
