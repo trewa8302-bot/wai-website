@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1759923395026240129";
+      element.src = "/WAI/assets/scripts/main.js?1760355163065043075";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1759923395026240129">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1760355163065043075">
 
 <title> Easy Checks – A First Review of Web Accessibility | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
@@ -211,7 +211,7 @@
   <div>
 
     <div class="video-container" data-video-type="" dir="ltr">
-  <video preload="metadata" data-youtube-id="IZp8eUAu450" data-youtube-nocookie="true" data-description-audible="false"><track src="/WAI/content-images/easy-checks/archive/easy-checks-accessibility-cc.vtt" label="English" kind="captions" srclang="en" /></video>
+    <video preload="metadata" data-youtube-id="IZp8eUAu450" data-youtube-nocookie="true" data-description-audible="false" playsinline=""><track src="/WAI/wai-videos/evaluating/easy-checks-accessibility.en.vtt" label="English" kind="captions" srclang="en" default="" /><track src="/WAI/wai-videos/evaluating/easy-checks-accessibility.fr.vtt" label="français" kind="subtitles" srclang="fr" /></video>
 </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -220,79 +220,52 @@
 
     <script src="/WAI/assets/ableplayer/build/ableplayer.min.js"></script>
 
+    <script src="//apis.google.com/js/client.js?onload=initGoogleClientApi"></script>
+
     <script>
-(function () {
-  'use strict';
+    (function () {
+        'use strict';
 
-  var player1 = new AblePlayer($('[data-video-type=""] video'));
-  var player2 = new AblePlayer($('[data-video-type="audio-described"] video'));
+        let player1 = new AblePlayer($('[data-video-type=""] video'));
+        const audiodescribed = document.querySelectorAll('[data-video-type="audio-described"]');
+        const nonaudiodescribed = document.querySelectorAll('[data-video-type=""]');
 
-  function addclass(el, className) {
-    if (el.classList) {
-      el.classList.add(className);
-    } else {
-      if(! hasclass(el, className)){
-        el.className += ' ' + className;
-      }
-    }
-  }
+        if (audiodescribed.length > 0) {
+            let player2 = new AblePlayer($('[data-video-type="audio-described"] video'));
 
-  function removeclass(el, className) {
-    if (el.classList) {
-      el.classList.remove(className);
-    } else {
-      el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
-    }
-  }
+            Array.prototype.forEach.call(audiodescribed, function(el, i){
+                el.setAttribute('hidden', true);
+            });
 
-  function hasclass(el, className) {
-    if (el.classList) {
-      return el.classList.contains(className);
-    } else {
-      return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
-    }
-  }
+            const adbutton = document.querySelector('#audio_description_button');
+            adbutton.addEventListener('click', function(e){
+                player1.pauseMedia();
+                player2.pauseMedia();
 
-  var audiodescribed = document.querySelectorAll('[data-video-type="audio-described"]');
+                if (e.currentTarget.getAttribute('data-status') === "audio-described") {
+                    Array.prototype.forEach.call(nonaudiodescribed, function(el, i){
+                        el.removeAttribute("hidden");
+                    });
+                    Array.prototype.forEach.call(audiodescribed, function(el, i){
+                        el.setAttribute('hidden', true);
+                    });
+                    e.currentTarget.setAttribute('data-status', 'non-audio-described');
+                    e.currentTarget.querySelector('span').textContent = 'Enable Audio Description';
+                } else {
+                    Array.prototype.forEach.call(nonaudiodescribed, function(el, i){
+                        el.setAttribute('hidden', true);
+                    });
+                    Array.prototype.forEach.call(audiodescribed, function(el, i){
+                        el.removeAttribute("hidden");
+                    });
+                    e.currentTarget.setAttribute('data-status', 'audio-described');
+                    e.currentTarget.querySelector('span').textContent = 'Disable Audio Description';
+                }
+            });
 
-  if (audiodescribed) {
+        }
 
-  Array.prototype.forEach.call(audiodescribed, function(el, i){
-    el.setAttribute('hidden', true);
-  });
-
-  var adbutton = document.querySelector('#audio_description_button');
-  adbutton.addEventListener('click', function(e){
-    player1.pauseMedia();
-    player2.pauseMedia();
-    if (e.target.getAttribute('data-status') == "audio-described") {
-      var videos = document.querySelectorAll('.video-container');
-      Array.prototype.forEach.call(videos, function(el, i){
-        el.removeAttribute("hidden");
-      });
-      var nonaudiodescribed = document.querySelectorAll('[data-video-type="audio-described"]');
-      Array.prototype.forEach.call(nonaudiodescribed, function(el, i){
-        el.setAttribute('hidden', true);
-      });
-      e.target.setAttribute('data-status', 'non-audio-described');
-      e.target.querySelector('span').innerHTML = 'Enable Audio Description';
-    } else {
-      var videos = document.querySelectorAll('.video-container');
-      Array.prototype.forEach.call(videos, function(el, i){
-        el.setAttribute('hidden', true);
-      });
-      var nonaudiodescribed = document.querySelectorAll('[data-video-type="audio-described"]');
-      Array.prototype.forEach.call(nonaudiodescribed, function(el, i){
-        el.removeAttribute("hidden");
-      });
-      e.target.setAttribute('data-status', 'audio-described');
-      e.target.querySelector('span').innerHTML = 'Disable Audio Description';
-    }
-  });
-
-  }
-
-}());
+    }());
 </script>
 
     <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4">Video: Easy Checks Overview (file format: MP4, file size: 29MB)</a>.</em></p>
@@ -1649,9 +1622,9 @@ https://github.com/w3c/wai-website/edit/main/pages/test-evaluate/easy-checks/arc
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1759923395026240129"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1760355163065043075"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1759923395026240129"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1760355163065043075"></script>
 <script>
   svg4everybody();
 </script><script>

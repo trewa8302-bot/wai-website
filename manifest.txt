@@ -2428,7 +2428,6 @@
 /content-images/easy-checks/archive/contrast-lowlum1.png
 /content-images/easy-checks/archive/contrast-lowlum2.png
 /content-images/easy-checks/archive/contrast-yellow.png
-/content-images/easy-checks/archive/easy-checks-accessibility-cc.vtt
 /content-images/easy-checks/archive/ff-menu-bar.png
 /content-images/easy-checks/archive/ff-toolbar-display-alt.png
 /content-images/easy-checks/archive/focus-highlight-border.png
