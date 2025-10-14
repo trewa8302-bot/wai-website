@@ -969,8 +969,12 @@
 /content-assets/wcag-act-rules/testcases/1a02b0/07965ba721519d8e4c53bc91692db1f97b8d7575.html
 /content-assets/wcag-act-rules/testcases/1a02b0/1594b82a7acb107fc96345b864d4c1fe92f4b165.html
 /content-assets/wcag-act-rules/testcases/1a02b0/50ee346de986982007936f25602b28bf6929ea5d.html
+/content-assets/wcag-act-rules/testcases/1a02b0/58833c5284a944298827df756cc31d10cea1f58f.html
 /content-assets/wcag-act-rules/testcases/1a02b0/5f361cfcf29c6c37a88c0fcdb4246fd8ec0a65c1.html
 /content-assets/wcag-act-rules/testcases/1a02b0/8ebc51b6599b22345051dc57d2c7649724f58f0b.html
+/content-assets/wcag-act-rules/testcases/1a02b0/9f640c8743b6ebee3942fc833f106984b5ee49bb.html
+/content-assets/wcag-act-rules/testcases/1a02b0/a4db5d80848f49290a026e2ee5c0fa7416f14dc6.html
+/content-assets/wcag-act-rules/testcases/1a02b0/a96a4eb928454e8fbf06f6e7c6ef1269f30c77df.html
 /content-assets/wcag-act-rules/testcases/1ea59c/1b605662e74aa7411e29dc56dfa4530efe95ae67.html
 /content-assets/wcag-act-rules/testcases/1ea59c/4095c53d7b6550e5af6a9edf43ec7c803bc1e462.html
 /content-assets/wcag-act-rules/testcases/1ea59c/830584542b47beaac2df52e84ceff7530be043fb.html
@@ -2102,9 +2106,12 @@
 /content-assets/wcag-act-rules/testcases/ee13b5/413a36ac05a2f6d50722a7614a86184c664053b4.html
 /content-assets/wcag-act-rules/testcases/ee13b5/5ed3a98f771c2069c1d4581ff5f85cc38d9b5ec0.html
 /content-assets/wcag-act-rules/testcases/ee13b5/6c6ed7e366a868cd4f7b7a9189d5c9d42a7860d3.html
+/content-assets/wcag-act-rules/testcases/ee13b5/75a78f5206ea6052ad6a133920c50d7ac7cd05d4.html
 /content-assets/wcag-act-rules/testcases/ee13b5/85f2613e6d1b419d8677126efa09efb26f31c34e.html
+/content-assets/wcag-act-rules/testcases/ee13b5/ac32b9e640afcba4c833f893eeff61de9ca9b4a5.html
 /content-assets/wcag-act-rules/testcases/ee13b5/c2b01e0d7fd2bfa875d2f3395f57f831745f03de.html
 /content-assets/wcag-act-rules/testcases/ee13b5/ce350e33e78f587703aa35b78fa319b9efe9291d.html
+/content-assets/wcag-act-rules/testcases/ee13b5/e6ef6ab47c239fc0abcd3ccb7ac8ddbfa6aa6d53.html
 /content-assets/wcag-act-rules/testcases/efbfc7/0d1564a1311c77d8693a9f839e1d752df501d441.html
 /content-assets/wcag-act-rules/testcases/efbfc7/18adb94ce561c2d1f29dec32d91f3dd39a8e45b2.html
 /content-assets/wcag-act-rules/testcases/efbfc7/337477ac8e969c4d134079babf891b0f1fd33eba.html
