@@ -3641,6 +3641,7 @@
 /standards-guidelines/w3c-process/index.html
 /standards-guidelines/wcag-mobile-overlap/index.html
 /standards-guidelines/wcag/20/glance/index.html
+/standards-guidelines/wcag/changelog/index.html
 /standards-guidelines/wcag/commenting/index.html
 /standards-guidelines/wcag/conformance-logos/index.html
 /standards-guidelines/wcag/docs/index.html
