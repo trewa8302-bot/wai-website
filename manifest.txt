@@ -778,6 +778,8 @@
 /content-assets/wcag-act-rules/earl/total-validator-browser.json
 /content-assets/wcag-act-rules/earl/total-validator.json
 /content-assets/wcag-act-rules/earl/trusted-tester.json
+/content-assets/wcag-act-rules/earl/usablenet-aqa-auto.json
+/content-assets/wcag-act-rules/earl/usablenet-aqa-semi-auto.json
 /content-assets/wcag-act-rules/earl/webmate-accessibility-workbench.json
 /content-assets/wcag-act-rules/impl-large-scope.svg
 /content-assets/wcag-act-rules/impl-small-scope.svg
@@ -3433,6 +3435,8 @@
 /standards-guidelines/act/implementations/total-validator-browser/index.html
 /standards-guidelines/act/implementations/total-validator/index.html
 /standards-guidelines/act/implementations/trusted-tester/index.html
+/standards-guidelines/act/implementations/usablenet-aqa-auto/index.html
+/standards-guidelines/act/implementations/usablenet-aqa-semi-auto/index.html
 /standards-guidelines/act/implementations/webmate-accessibility-workbench/index.html
 /standards-guidelines/act/index.html
 /standards-guidelines/act/report/earl/index.html
