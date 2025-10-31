@@ -1,0 +1,19 @@
+Conversation with Bake
+Started on July 27, 2025 at 05:43 AM Asia/Singapore time +08 (GMT+0800)
+
+---
+
+05:43 AM | Putrawee Photikul: Account/KYC requests
+
+05:43 AM | Bake Team: Please choose one of the following options:
+
+05:43 AM | Putrawee Photikul: KYC verification
+
+05:43 AM | Putrawee Photikul: Failed KYC verification
+
+05:43 AM | Bake Team: Feel free to provide us with more details in the text box below. Our team is ready to assist you as quickly as possible!
+
+05:44 AM | Putrawee Photikul: [Image "Screenshot_20250727-044204.jpg?expires=1753568100&signature=e56f6bcb7c7121368664c13bfb7f3a9e604fa8060a8cd568f076f98ac47401c4&req=dSYkH8F5n4BfWPMW1HO4zf5S3h83dHDohwwsu7Z4HMh5Uk02heCZeJev7wjP%0AWsLu%0A"]
+
+---
+Exported from Bake on July 27, 2025 at 05:46 AM Asia/Singapore time +08 (GMT+0800)
